@@ -1,56 +1,113 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 header {
-  height: 85px;
-  background-color: rgba(15,15,15,0.6);
+    height: 85px;
+    background-color: rgba(15, 15, 15, 0.6);
 }
 .bg {
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  z-index: -100;
-  background-size: cover;
-	background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/38/Peter_W._Rodino_Federal_Office_Building_at_night.jpg');
-	-webkit-filter: brightness(45%);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -100;
+    background-size: cover;
+    background-color: #303030;
+}
+
+/*James' Work //dont mess*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 89px;
+    color: #FFA500;
+    font-weight: 300;
+}
+.nav-button {
+    width: 60px;
+    height: 45px;
+    position: fixed;
+    right:0px;
+    margin: 50px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.nav-button span {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: #FFA500;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+.nav-button span:nth-child(1) {
+    top: 0px;
+}
+.nav-button span:nth-child(2),
+.nav-button span:nth-child(3) {
+    top: 18px;
+}
+.nav-button span:nth-child(4) {
+    top: 36px;
+}
+.nav-button.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+.nav-button.open {
+    transform: translate(-30vw,0);
+    -webkit-transform: translate(-30vw,0); /** Safari & Chrome **/
+    -o-transform: translate(-30vw,0); /** Opera **/
+    -moz-transform: translate(-30vw,0); /** Firefox **/
+}
+.nav-button.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.nav-button.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.nav-button.open span:nth-child(4) {
+    top: 18p;
+    width: 0%;
+    left: 50%;
+}
+
+    /* Menu */
+.thingofmenu {
+    position: fixed;
+    right: -100px;
+    color: #FFA500;
+}
+.thingofmenu.opened {
+    transform: translate(-30vw,0);
+    -webkit-transform: translate(-30vw,0); /** Safari & Chrome **/
+    -o-transform: translate(-30vw,0); /** Opera **/
+    -moz-transform: translate(-30vw,0); /** Firefox **/
+}
+table, td {
+    border: 1px solid black;
+    background-color: #303030;
 }
