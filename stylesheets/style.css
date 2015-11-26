@@ -96,17 +96,17 @@ h1 {
 }
 
 .menu {
-    position: fixed;
-    right: -20vw;
+    float: right;
     color: #FFA500;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     box-shadow: 3px 3px 5px #212121;
     color: #212121;
+    width: 0vw;
+    height: 100vh;
 }
 ul {
-    width: 20vw;
     list-style: none;
 }
 ul, li {
