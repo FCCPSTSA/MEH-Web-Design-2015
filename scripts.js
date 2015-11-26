@@ -1,27 +1,27 @@
 var isOpen = false;
 
-$(document).ready(function () {
-	$('.menu-button').click(function () {
-		$(this).toggleClass('open');
-	});
-});
-if (isOpen === false) {
-	$(document).ready(function () {
-		$('.menu-button').click(function () {
-			isOpened = true;
-			$('.menu').animate({
-			width: "30vw"
-			});
-		});
-	});
-}
-if (isOpened === true) {
-	$(document).ready(function () {
-		$('.menu-button').click(function () {
-			isOpen = false
-			$('.menu').animate({
-				width: "0vw"
-			});
-		});
-	});
-}
+var open = function() {
+    $(".menu").animate({
+        width: "30vw"
+    }, 300);
+
+    isOpen = true;
+};
+var menuClose = function() {
+    $(".menu").animate({
+        width: "0vw"
+    }, 300);
+    isOpen = false;
+};
+var menu = function() {
+    $(".menu-button").click(function() {
+        if (isMenuOpen === false) {
+            menuOpen();
+        }
+        else {
+            menuClose();
+        }
+    });
+};
+
+$(document).ready(menu);
