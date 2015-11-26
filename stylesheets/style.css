@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 header {
     height: 85px;
-    background-color: rgba(15, 15, 15, 0.6);
+    background-color: rgba(250,250,250,0.6);
 }
 .bg {
     height: 100vh;
@@ -10,18 +10,16 @@ header {
     position: fixed;
     z-index: -100;
     background-size: cover;
-    background-color: #212121;
+    background-image: url('images/logo.png');
 }
-
-/*James' Work //dont mess*/
-
+/* Background image is a placeholder. If you find a better one be my guest. */
 * {
     margin: 0;
     padding: 0;
 }
 h1 {
     font-size: 89px;
-    color: #FFA500;
+    color: #212121;
     font-family: 'Open Sans', 'Raleway', sans-serif;
 }
 .menu-button {
@@ -34,10 +32,10 @@ h1 {
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
     cursor: pointer;
 }
 .menu-button span {
