@@ -112,6 +112,10 @@ h1 {
     -webkit-transform: translate(-20vw,0); /** Safari & Chrome **/
     -o-transform: translate(-20vw,0); /** Opera **/
     -moz-transform: translate(-20vw,0); /** Firefox **/
+    -webkit-transition: .40s ease-in-out;
+    -moz-transition: .40s ease-in-out;
+    -o-transition: .40s ease-in-out;
+    transition: .40s ease-in-out;
 }
 table {
     width: 20vw;
