@@ -10,7 +10,7 @@ header {
     position: fixed;
     z-index: -100;
     background-size: cover;
-    background-image: url('images/logo.png');
+    background-image: url('//images/logo.png');
 }
 /* Background image is a placeholder. If you find a better one be my guest. */
 * {
