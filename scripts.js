@@ -5,6 +5,6 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
 	$('.menu-button').click(function () {
-		$('.thingofmenu').toggleClass('opened');
+		$('.this').toggleClass('opened');
 	});
 });
