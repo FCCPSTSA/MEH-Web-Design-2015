@@ -105,16 +105,6 @@ h1 {
     box-shadow: 3px 3px 5px #212121;
     color: #212121;
 }
-.menu.opened {
-    transform: translate(-20vw,0);
-    -webkit-transform: translate(-20vw,0); /** Safari & Chrome **/
-    -o-transform: translate(-20vw,0); /** Opera **/
-    -moz-transform: translate(-20vw,0); /** Firefox **/
-    -webkit-transition: .40s ease-in-out;
-    -moz-transition: .40s ease-in-out;
-    -o-transition: .40s ease-in-out;
-    transition: .40s ease-in-out;
-}
 ul {
     width: 20vw;
     list-style: none;
