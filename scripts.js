@@ -4,6 +4,11 @@ var open = function() {
     $(".menu").animate({
         width: "30vw"
     }, 300);
+$(document).ready(function () {
+    $('.nav-button').click(function () {
+        $(this).toggleClass('open');
+    });
+});
 
     isOpen = true;
 };

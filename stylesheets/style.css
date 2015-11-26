@@ -20,7 +20,7 @@ header {
 h1 {
     font-size: 89px;
     color: #212121;
-    font-family: 'Open Sans', 'Raleway', sans-serif;
+    font-family: 'Raleway', 'Open Sans',  sans-serif;
 }
 .menu-button {
     width: 60px;
