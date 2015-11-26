@@ -5,6 +5,8 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
 	$('.menu-button').click(function () {
-		$('.this').toggleClass('opened');
+		$('.menu').animate({
+			width: "30vw"	
+		});
 	});
 });
