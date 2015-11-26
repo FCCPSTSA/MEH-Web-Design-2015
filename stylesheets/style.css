@@ -10,7 +10,7 @@ header {
     position: fixed;
     z-index: -100;
     background-size: cover;
-    background-color: #303030;
+    background-color: #212121;
 }
 
 /*James' Work //dont mess*/
@@ -22,10 +22,9 @@ header {
 h1 {
     font-size: 89px;
     color: #FFA500;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', 'Raleway', sans-serif;
 }
-.nav-button {
+.menu-button {
     width: 60px;
     height: 45px;
     position: fixed;
@@ -41,7 +40,7 @@ h1 {
     transition: .5s ease-in-out;
     cursor: pointer;
 }
-.nav-button span {
+.menu-button span {
     display: block;
     position: absolute;
     height: 9px;
@@ -59,47 +58,46 @@ h1 {
     -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
 }
-.nav-button span:nth-child(1) {
+.menu-button span:nth-child(1) {
     top: 0px;
 }
-.nav-button span:nth-child(2),
-.nav-button span:nth-child(3) {
+.menu-button span:nth-child(2),
+.menu-button span:nth-child(3) {
     top: 18px;
 }
-.nav-button span:nth-child(4) {
+.menu-button span:nth-child(4) {
     top: 36px;
 }
-.nav-button.open span:nth-child(1) {
+.menu-button.open span:nth-child(1) {
     top: 18px;
     width: 0%;
     left: 50%;
 }
-.nav-button.open {
+.menu-button.open {
     transform: translate(-20vw,0);
     -webkit-transform: translate(-20vw,0); /** Safari & Chrome **/
     -o-transform: translate(-20vw,0); /** Opera **/
     -moz-transform: translate(-20vw,0); /** Firefox **/
 }
-.nav-button.open span:nth-child(2) {
+.menu-button.open span:nth-child(2) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.nav-button.open span:nth-child(3) {
+.menu-button.open span:nth-child(3) {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-.nav-button.open span:nth-child(4) {
+.menu-button.open span:nth-child(4) {
     top: 18p;
     width: 0%;
     left: 50%;
 }
 
-    /* Menu */
-.thingofmenu {
+.menu {
     position: fixed;
     right: -20vw;
     color: #FFA500;
@@ -107,7 +105,7 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     text-align: left;
 }
-.thingofmenu.opened {
+.menu.opened {
     transform: translate(-20vw,0);
     -webkit-transform: translate(-20vw,0); /** Safari & Chrome **/
     -o-transform: translate(-20vw,0); /** Opera **/
@@ -117,13 +115,10 @@ h1 {
     -o-transition: .40s ease-in-out;
     transition: .40s ease-in-out;
 }
-table {
+ul {
     width: 20vw;
 }
-table, td {
+ul, li {
     border: 1px solid black;
     background-color: #303030;
-}
-table {
-    border-collapse: collapse;
 }
