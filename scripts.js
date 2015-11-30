@@ -6,6 +6,6 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('.nav-button').click(function () {
-        $('.thingofmenu').toggleClass('opened');
+        $('.menu').toggleClass('opened');
     });
 });

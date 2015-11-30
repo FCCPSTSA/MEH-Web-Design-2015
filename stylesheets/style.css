@@ -108,14 +108,14 @@ h1 {
 }
 
     /* Menu */
-.thingofmenu {
+.menu {
     position: fixed;
     color: #FFA500;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     right: -20vw;
 }
-.thingofmenu.opened {
+.menu.opened {
     transform: translate(-20vw,0);
     -webkit-transform: translate(-20vw,0); /** Safari & Chrome **/
     -o-transform: translate(-20vw,0); /** Opera **/
@@ -125,14 +125,15 @@ h1 {
     -o-transition: .45s ease-in-out;
     transition: .45s ease-in-out;
 }
-table {
+.menu {
     width: 20vw;
 }
-table, td {
+li {
     border: 1px solid black;
     background-color: white;
     color: #303030;
+    list-style-type: none;
 } 
-table {
+li {
     border-collapse: collapse;
 }
