@@ -134,6 +134,17 @@ li {
     color: #303030;
     list-style-type: none;
 } 
-li {
-    border-collapse: collapse;
+a {
+    text-decoration: none;
+}
+li:not(:first-child) {
+    border-top: 0;
+}
+/* All The Rest */
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    width: 80vw;
+    font-family: 'Open Sans', sans-serif;
 }
