@@ -22,6 +22,7 @@ h1 {
     font-size: 89px;
     color: #303030;
     font-family: 'Raleway', 'Open Sans',  sans-serif;
+    padding-left: 6vw;
 }
 /*James' Work //dont mess*/
 
@@ -143,9 +144,14 @@ li:not(:first-child) {
 /* All The Rest */
 h2 {
     font-family: 'Raleway', sans-serif;
+    padding-left: 2vw;
 }
 p {
     width: 80vw;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 7.5vh;
+    padding-left: 4vw;
+}
+hr {
+    width: 80vw;
 }
