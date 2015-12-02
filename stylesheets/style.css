@@ -141,17 +141,13 @@ a {
 li:not(:first-child) {
     border-top: 0;
 }
-/* All The Rest */
 h2 {
     font-family: 'Raleway', sans-serif;
     padding-left: 2vw;
 }
-p {
+section {
     width: 80vw;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 7.5vh;
     padding-left: 4vw;
-}
-hr {
-    width: 80vw;
 }
