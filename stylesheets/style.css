@@ -24,8 +24,6 @@ h1 {
     font-family: 'Raleway', 'Open Sans',  sans-serif;
     padding-left: 0.5vw;
 }
-/*James' Work //dont mess*/
-
 * {
     margin: 0;
     padding: 0;
@@ -37,10 +35,10 @@ h1 {
 }
 .nav-button {
     width: 60px;
-    height: 45px;
+    height: 100vh;
     position: fixed;
-    right:0px;
-    margin: 50px auto;
+    right: 0px;
+    background-color: #E0E0E0;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -54,10 +52,10 @@ h1 {
 .nav-button span {
     display: block;
     position: absolute;
-    height: 9px;
-    width: 100%;
+    height: 6px;
+    width: 80%;
     background: #303030;
-    border-radius: 9px;
+    border-radius: 3px;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -86,9 +84,9 @@ h1 {
 }
 .nav-button.open {
     transform: translate(-20vw,0);
-    -webkit-transform: translate(-20vw,0); /** Safari & Chrome **/
-    -o-transform: translate(-20vw,0); /** Opera **/
-    -moz-transform: translate(-20vw,0); /** Firefox **/
+    -webkit-transform: translate(-20vw,0);
+    -o-transform: translate(-20vw,0);
+    -moz-transform: translate(-20vw,0);
 }
 .nav-button.open span:nth-child(2) {
     -webkit-transform: rotate(45deg);
@@ -107,34 +105,36 @@ h1 {
     width: 0%;
     left: 50%;
 }
-
-    /* Menu */
 .menu {
     position: fixed;
-    color: #FFA500;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     right: -20vw;
+    width: 20vw;
+    background-color: #E0E0E0;
+    height: 100vh;
 }
-.menu.opened {
+.menu.open {
     transform: translate(-20vw,0);
-    -webkit-transform: translate(-20vw,0); /** Safari & Chrome **/
-    -o-transform: translate(-20vw,0); /** Opera **/
-    -moz-transform: translate(-20vw,0); /** Firefox **/
+    -webkit-transform: translate(-20vw,0);
+    -o-transform: translate(-20vw,0);
+    -moz-transform: translate(-20vw,0);
     -webkit-transition: .45s ease-in-out;
     -moz-transition: .45s ease-in-out;
     -o-transition: .45s ease-in-out;
     transition: .45s ease-in-out;
-}
-.menu {
-    width: 20vw;
+    box-shadow: 5px 5px 7px rgba(20,20,20,0.6);
 }
 li {
-    border: 1px solid black;
-    background-color: white;
     color: #303030;
-    list-style-type: none;
-} 
+    list-style: none;
+    transition: .2s all;
+    height: 10vh;
+    vertical-align: middle;
+}
+li:hover {
+  background-color: #9E9E9E;
+}
 a {
     text-decoration: none;
 }
