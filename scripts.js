@@ -12,4 +12,3 @@ if ($(.menu).hasClass('open')) {
   $(.nav-button).css({
     background: "#E0E0E0"
   });
-}
