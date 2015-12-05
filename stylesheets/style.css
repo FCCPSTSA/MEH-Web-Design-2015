@@ -28,6 +28,8 @@ h1 {
     margin: 0;
     padding: 0;
 }
+/*
+Paulo got angry (Not first word choice) about this so I commented it out. 
 .nav-button {
     width: 60px;
     height: 100vh;
@@ -99,7 +101,7 @@ h1 {
     top: 18p;
     width: 0%;
     left: 50%;
-}
+} */
 .menu {
     position: fixed;
     text-align: center;
