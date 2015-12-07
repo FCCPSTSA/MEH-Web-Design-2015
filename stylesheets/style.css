@@ -28,6 +28,7 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
 .nav-button {
     width: 60px;
     height: 100vh;
@@ -148,17 +149,45 @@ header {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
-}
+}/*
 .bg {
     height: 100vh;
     width: 100vw;
     position: fixed;
     z-index: -100;
     background-color: white;
-}
+}*/
 section {
     width: 80vw;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 7.5vh;
     padding-left: 4vw;
+}
+#outlineimg {
+  border-radius: 100%;
+  height: 40vh;
+  width: 20vw;
+}
+#placeholder {
+  border:
+  height: 40vh;
+  width: 20vw;
+  border-radius: 100%;
+}
+#placeholder {
+  float: left;
+  mask-image: (50%);
+  height: 32vh;
+  width: 16vw;
+  opacity: 0.6;
+  margin: 50px;
+  border: 2px solid gray;
+  transition: border 0.2s ease;
+  position: absolute;
+  left: 19vw;
+  bottom: 34vh;
+}
+#placeholder:hover {
+  opacity: 1.0;
+  border: 5px solid #4C3B39;
 }
