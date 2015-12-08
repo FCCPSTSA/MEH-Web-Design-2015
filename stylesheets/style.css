@@ -2,9 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 header {
     height: 85px;
-    background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
+    background-color: white;
 }
 .bg {
     height: 100vh;
@@ -23,12 +23,8 @@ h1 {
     color: #303030;
     font-family: 'Raleway', 'Open Sans',  sans-serif;
     padding-left: 0.5vw;
+    font-weight: 300;
 }
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .nav-button {
     width: 60px;
     height: 100vh;
@@ -137,26 +133,13 @@ a {
 li:not(:first-child) {
     border-top: 0;
 }
-h1 {
-    font-size: 89px;
-    color: #303030;
-    font-family: 'Raleway', 'Open Sans',  sans-serif;
-    padding-left: 0.5vw;
-    font-weight: 300;
-}
-header {
-    height: 85px;
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-}/*
 .bg {
     height: 100vh;
     width: 100vw;
     position: fixed;
     z-index: -100;
     background-color: white;
-}*/
+}
 section {
     width: 80vw;
     font-family: 'Open Sans', sans-serif;
