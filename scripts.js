@@ -1,15 +1,14 @@
-$(document).ready(function () {
-    $('.nav-button').click(function () {
+$(document).ready(function() {
+    $('.nav-button').click(function() {
         $(this).toggleClass('open');
     });
 });
-$(document).ready(function () {
-    $('.nav-button').click(function () {
+$(document).ready(function() {
+    $('.nav-button').click(function() {
         $('.menu').toggleClass('open');
+        $('.content').animate({
+          'webkitTransform': 'skewY(10deg)',
+          'transform': 'skewY(10deg)'
+        });
     });
 });
-if ($(.menu).hasClass('open')) {
-  $(.nav-button).css({
-    background: "#E0E0E0"
-  });
-}
