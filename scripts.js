@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $('.nav-button').click(function() {
         $(this).toggleClass('open');
+        $('.coverup').toggleClass('crackedopen');
     });
 });
 $(document).ready(function() {
@@ -12,3 +13,4 @@ $(document).ready(function() {
         });
     });
 });
+
