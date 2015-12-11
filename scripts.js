@@ -7,8 +7,9 @@ $(document).ready(function() {
     $('.nav-button').click(function() {
         $('.menu').toggleClass('open');
         $('.content').animate({
-          'webkitTransform': 'skewY(10deg)',
-          'transform': 'skewY(10deg)'
+          'filter': 'brightness(60%)',
+          '-webkit-filter': 'brightness(60%)',
+          'webkitFilter': 'brightness(60%)'
         });
     });
 });

@@ -31,10 +31,10 @@ h1 {
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
   cursor: pointer;
 }
 .nav-button span {
@@ -76,7 +76,7 @@ h1 {
   -webkit-transform: translate(-20vw, 0);
   -o-transform: translate(-20vw, 0);
   -moz-transform: translate(-20vw, 0);
-  
+
 }
 .nav-button.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
@@ -108,17 +108,18 @@ h1 {
   -webkit-transform: translate(-20vw, 0);
   -o-transform: translate(-20vw, 0);
   -moz-transform: translate(-20vw, 0);
-  -webkit-transition: .45s ease-in-out;
-  -moz-transition: .45s ease-in-out;
-  -o-transition: .45s ease-in-out;
-  transition: .45s ease-in-out;
-  box-shadow: 3px -5px 5px rgba(30,30,30,0.6);
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  box-shadow: 3px -5px 5px rgba(10,10,10,0.8);
 }
 li {
   color: #212121;
   list-style: none;
-  transition: .2s all;
-  height: 10vh;
+  transition: .15s all;
+  height: 7vh;
+  display: block;
   vertical-align: middle;
 }
 li:hover {
