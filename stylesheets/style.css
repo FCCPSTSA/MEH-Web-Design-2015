@@ -7,7 +7,7 @@ body, html {
 }
 header {
   height: 85px;
-  background-color: white;
+  background-color: #303030;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
   z-index: 30;
@@ -24,7 +24,7 @@ header {
 h1 {
   font-size: 89px;
   width: 100vw;
-  color: #303030;
+  color: white;
   font-family: 'Raleway', 'Open Sans', sans-serif;
   padding-left: 0.5vw;
   font-weight: 300;
@@ -50,7 +50,6 @@ p {
   transition: .3s ease-in-out;
   cursor: pointer;
   z-index: 100;
-  background-color: #fff;
 }
 .nav-button span {
   display: block;
@@ -58,7 +57,7 @@ p {
   height: 6px;
   width: 80%;
   top: 5px;
-  background: #212121;
+  background: white;
   border-radius: 5px;
   opacity: 1;
   left: 5px;
