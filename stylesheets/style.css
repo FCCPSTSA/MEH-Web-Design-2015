@@ -25,7 +25,7 @@ h1 {
   font-size: 89px;
   width: 100vw;
   color: #303030;
-  font-family: 'Raleway', 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding-left: 0.5vw;
   font-weight: 300;
   z-index: 30;
@@ -50,7 +50,8 @@ p {
   transition: .3s ease-in-out;
   cursor: pointer;
   z-index: 100;
-  background-color: #fff;
+  background-color: rgba(25, 25, 25, 0.95);
+  border-radius: 2px;
 }
 .nav-button span {
   display: block;
@@ -58,7 +59,7 @@ p {
   height: 6px;
   width: 80%;
   top: 5px;
-  background: #212121;
+  background-color: #fff;
   border-radius: 5px;
   opacity: 1;
   left: 5px;
@@ -134,18 +135,20 @@ p {
   -o-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   box-shadow: 3px 3px 5px rgba(10,10,10,0.8);
-  background-color: #fff;
+  background-color: rgba(25, 25, 25, 0.95);
 }
 li {
-  color: #212121;
+  color: #fff;
   list-style: none;
   transition: .15s all;
-  height: 7vh;
+  padding-top: 1vh;
+  height: 3vh;
   display: block;
   z-index: 75;
+  font-family: "Open Sans";
 }
 li:hover {
-  background-color: #BDBDBD;
+  background-color: rgba(50, 50, 50, 0.95);
 }
 a {
   text-decoration: none;
