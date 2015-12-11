@@ -133,10 +133,10 @@ p {
   -o-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   box-shadow: 3px 3px 5px rgba(10,10,10,0.8);
-  background-color: #fff;
+  background-color: #303030;
 }
 li {
-  color: #212121;
+  color: white;
   list-style: none;
   transition: .15s all;
   height: 7vh;
@@ -144,7 +144,7 @@ li {
   z-index: 75;
 }
 li:hover {
-  background-color: #BDBDBD;
+  background-color: #454545;
 }
 a {
   text-decoration: none;
