@@ -5,11 +5,15 @@ header {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
+  z-index: 30;
+
 }
 * {
   margin: 0;
   padding: 0;
   font-weight: 300;
+  z-index: 30;
+
 }
 h1 {
   font-size: 89px;
@@ -17,10 +21,13 @@ h1 {
   font-family: 'Raleway', 'Open Sans', sans-serif;
   padding-left: 0.5vw;
   font-weight: 300;
+  z-index: 30;
+
 }
-* {
-  margin: 0;
-  padding: 0;
+p {
+  color: #003366;
+  z-index: 30;
+
 }
 .nav-button {
   width: 60px;
@@ -112,7 +119,7 @@ h1 {
   -moz-transition: .45s ease-in-out;
   -o-transition: .45s ease-in-out;
   transition: .45s ease-in-out;
-  box-shadow: 3px -5px 5px rgba(30,30,30,0.6);
+  box-shadow: 3px -5px 5px #545454;
 }
 li {
   color: #212121;
@@ -122,7 +129,7 @@ li {
   vertical-align: middle;
 }
 li:hover {
-  background-color: #9E9E9E;
+  background-color: #CCCC99;
 }
 a {
   text-decoration: none;
@@ -135,6 +142,7 @@ section {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 7.5vh;
   padding-left: 4vw;
+  z-index: 30;
 }
 .bg {
     height: 100vh;
@@ -143,3 +151,4 @@ section {
     z-index: -100;
     background-color: white;
 }
+
