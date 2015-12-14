@@ -8,7 +8,6 @@ body, html {
 header {
   height: 85px;
   background-color: #303030;
-  font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
   z-index: 30;
   width: 100vw;
@@ -24,13 +23,8 @@ header {
 h1 {
   font-size: 89px;
   width: 100vw;
-<<<<<<< HEAD
   color: #303030;
   font-family: 'Raleway', sans-serif;
-=======
-  color: white;
-  font-family: 'Raleway', 'Open Sans', sans-serif;
->>>>>>> e2d9e4694a6dd775721a5ab327b8ee9b8836f8bc
   padding-left: 0.5vw;
   font-weight: 300;
   z-index: 30;
@@ -55,11 +49,8 @@ p {
   transition: .3s ease-in-out;
   cursor: pointer;
   z-index: 100;
-<<<<<<< HEAD
   background-color: rgba(25, 25, 25, 0.95);
   border-radius: 2px;
-=======
->>>>>>> e2d9e4694a6dd775721a5ab327b8ee9b8836f8bc
 }
 .nav-button span {
   display: block;
@@ -67,11 +58,7 @@ p {
   height: 6px;
   width: 80%;
   top: 5px;
-<<<<<<< HEAD
   background-color: #fff;
-=======
-  background: white;
->>>>>>> e2d9e4694a6dd775721a5ab327b8ee9b8836f8bc
   border-radius: 5px;
   opacity: 1;
   left: 5px;
@@ -147,17 +134,14 @@ p {
   -o-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   box-shadow: 3px 3px 5px rgba(10,10,10,0.8);
-<<<<<<< HEAD
   background-color: rgba(25, 25, 25, 0.95);
 }
 li {
   color: #fff;
-=======
   background-color: #303030;
 }
 li {
   color: white;
->>>>>>> e2d9e4694a6dd775721a5ab327b8ee9b8836f8bc
   list-style: none;
   transition: .15s all;
   padding-top: 1vh;
@@ -167,11 +151,7 @@ li {
   font-family: "Open Sans";
 }
 li:hover {
-<<<<<<< HEAD
-  background-color: rgba(50, 50, 50, 0.95);
-=======
   background-color: #454545;
->>>>>>> e2d9e4694a6dd775721a5ab327b8ee9b8836f8bc
 }
 a {
   text-decoration: none;
