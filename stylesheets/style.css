@@ -28,6 +28,7 @@ h1 {
   padding-left: 0.5vw;
   font-weight: 300;
   z-index: 30;
+  color: white;
 }
 p {
   color: #003366;
@@ -49,7 +50,6 @@ p {
   transition: .3s ease-in-out;
   cursor: pointer;
   z-index: 100;
-  background-color: rgba(25, 25, 25, 0.95);
   border-radius: 2px;
 }
 .nav-button span {
@@ -134,7 +134,7 @@ p {
   -o-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   box-shadow: 3px 3px 5px rgba(10,10,10,0.8);
-  background-color: rgba(25, 25, 25, 0.95);
+  background-color: rgba(25, 25, 25, 0.5);
 }
 li {
   color: #fff;
@@ -145,7 +145,7 @@ li {
   list-style: none;
   transition: .15s all;
   padding-top: 1vh;
-  height: 3vh;
+  height: 4vh;
   display: block;
   z-index: 75;
   font-family: "Open Sans";
@@ -186,4 +186,10 @@ section p {
 }
 .section-two {
   background-color: #212121;
+}
+.our-chapter {
+  background-image: url('https://www.nasa.gov/sites/default/files/images/712129main_8247975848_88635d38a1_o.jpg');
+}
+.our-web-design {
+  background-image: url('http://cdn1.theodysseyonline.com/files/2015/11/22/635837543967891325-1334079436_space%20odyssey.jpg');
 }
