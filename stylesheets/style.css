@@ -6,12 +6,11 @@ body, html {
   height: 100vh;
 }
 header {
-  height: 85px;
-  background-color: #303030;
+  height: 20vh;
+  background-color: white;
   font-family: 'Raleway', sans-serif;
   z-index: 30;
   width: 100vw;
-  padding-bottom: 3vh;
   box-shadow: 1px 1px 10px rgba(40, 40, 40, 0.6);
 }
 * {
@@ -23,15 +22,15 @@ header {
 h1 {
   font-size: 89px;
   width: 100vw;
-  color: #303030;
+  color: #212121;
+  padding-top: 2vh;
   font-family: 'Raleway', sans-serif;
-  padding-left: 0.5vw;
+  padding-left: 1vw;
   font-weight: 300;
   z-index: 30;
-  color: white;
 }
 p {
-  color: #003366;
+  color: #212121;
   z-index: 30;
 }
 .nav-button {
@@ -58,7 +57,7 @@ p {
   height: 6px;
   width: 80%;
   top: 5px;
-  background-color: #fff;
+  background-color: #212121;
   border-radius: 5px;
   opacity: 1;
   left: 5px;
@@ -129,19 +128,14 @@ p {
   -o-transform: translate(-20vw, 0);
   -moz-transform: translate(-20vw, 0);
   transform: translate(-20vw, 0);
-  -webkit-transition: .3s ease-in-out;
-  -moz-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out transform;
+  -moz-transition: .3s ease-in-out transform;
+  -o-transition: .3s ease-in-out transform;
+  transition: .3s ease-in-out transform;
+  background-color: white;
   box-shadow: 3px 3px 5px rgba(10,10,10,0.8);
-  background-color: rgba(25, 25, 25, 0.5);
 }
 li {
-  color: #fff;
-  background-color: #303030;
-}
-li {
-  color: white;
   list-style: none;
   transition: .15s all;
   padding-top: 1vh;
@@ -149,9 +143,11 @@ li {
   display: block;
   z-index: 75;
   font-family: "Open Sans";
+  color: #212121;
+  border-radius: 2px;
 }
 li:hover {
-  background-color: #454545;
+  background-color: #eee;
 }
 a {
   text-decoration: none;
@@ -175,17 +171,19 @@ h2 {
 }
 .landing {
   color: white;
-  background-image: url('../images/building.jpg');
-  /* Sneha should replace this with a photo */
+  background-image: url('../images/clouds.jpg');
+  /* Sneha should replace this with a photo of hers */
   background-size: cover;
 }
 section p {
   color: white;
   text-align: center;
   margin: 0 15vw 0 15vw;
+  font-weight: bolder;
 }
 .section-two {
-  background-color: #212121;
+  background-image: url('../images/road.jpg');
+  /* Ditto above */
 }
 .our-chapter {
   background-image: url('https://www.nasa.gov/sites/default/files/images/712129main_8247975848_88635d38a1_o.jpg');
