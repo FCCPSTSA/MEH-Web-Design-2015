@@ -2,61 +2,54 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRampu5_7CjHW5spxoeN3Vs.woff2) format("woff2");
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
-
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;
-  src: local("Raleway Light"), local("Raleway-Light"), url(https://fonts.gstatic.com/s/raleway/v9/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2) format("woff2");
+  src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v9/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
-
 body, html {
   overflow-x: hidden;
   width: 100vw;
   height: 100vh;
 }
-
 header {
   height: 20vh;
   background-color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   z-index: 30;
   width: 100vw;
   box-shadow: 1px 1px 10px rgba(40, 40, 40, 0.6);
 }
-
 * {
   margin: 0;
   padding: 0;
   font-weight: 300;
   z-index: 30;
 }
-
 h1 {
   font-size: 89px;
   width: 100vw;
   color: #212121;
   padding-top: 2vh;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding-left: 1vw;
   font-weight: 300;
   z-index: 30;
 }
-
 p {
   color: #212121;
   z-index: 30;
 }
-
 .nav-button {
   width: 60px;
   height: 60px;
   position: fixed;
-  right: 0;
+  right: 10px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -70,7 +63,6 @@ p {
   z-index: 100;
   border-radius: 2px;
 }
-
 .nav-button span {
   display: block;
   position: absolute;
@@ -92,26 +84,21 @@ p {
   transition: .25s ease-in-out;
   z-index: 666;
 }
-
 .nav-button span:nth-child(1) {
   margin-top: 5px;
 }
-
 .nav-button span:nth-child(2),
 .nav-button span:nth-child(3) {
   top: 25px;
 }
-
 .nav-button span:nth-child(4) {
   top: 40px;
 }
-
 .nav-button.open span:nth-child(1) {
   top: 18px;
   width: 0;
   left: 50%;
 }
-
 .nav-button.open {
   -webkit-transform: translate(-20vw, 0);
   -ms-transform: translate(-20vw, 0);
@@ -119,7 +106,6 @@ p {
   -moz-transform: translate(-20vw, 0);
   transform: translate(-20vw, 0);
 }
-
 .nav-button.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -127,7 +113,6 @@ p {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
 .nav-button.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -135,23 +120,20 @@ p {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-
 .nav-button.open span:nth-child(4) {
   top: 18px;
   width: 0;
   left: 50%;
 }
-
 .menu {
   position: fixed;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   right: -20vw;
   width: 20vw;
   height: 100vh;
   z-index: 75;
 }
-
 .menu.open {
   -ms-transform: translate(-20vw, 0);
   -webkit-transform: translate(-20vw, 0);
@@ -165,7 +147,6 @@ p {
   background-color: white;
   box-shadow: 3px 3px 5px rgba(10, 10, 10, 0.8);
 }
-
 li {
   list-style: none;
   transition: .15s all;
@@ -173,63 +154,71 @@ li {
   height: 4vh;
   display: block;
   z-index: 75;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #212121;
   border-radius: 2px;
 }
-
 li:hover {
   background-color: #eee;
 }
-
 a {
   text-decoration: none;
   z-index: 75;
 }
-
 li:not(:first-child) {
   border-top: 0;
 }
-
 section {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding-left: 4vw;
   z-index: 30;
   height: 100vh;
   width: 100vw;
+  background-size: cover;
 }
-
 h2 {
   padding-top: 30vh;
-  font: 48px "Raleway", sans-serif;
+  font: 48px 'Raleway', sans-serif;
   text-align: center;
   color: white;
 }
-
 .landing {
   color: white;
-  background-image: url("../images/clouds.jpg");
+  background-image: url('../images/clouds.jpg');
   /* Sneha should replace this with a photo of hers */
   background-size: cover;
 }
-
 section p {
   color: white;
   text-align: center;
   margin: 0 15vw 0 15vw;
   font-weight: bolder;
 }
-
 .section-two {
-  background-image: url("../images/road.jpg");
+  background-image: url('../images/road.jpg');
   /* Ditto above */
 }
-
 .our-chapter {
-  background-image: url("https://www.nasa.gov/sites/default/files/images/712129main_8247975848_88635d38a1_o.jpg");
+  background-image: url('../images/droplets.jpg');
 }
-
 .our-web-design {
-  background-image: url("http://cdn1.theodysseyonline.com/files/2015/11/22/635837543967891325-1334079436_space%20odyssey.jpg");
+  background-image: url('../images/eagle.jpg');
 }
-
+::scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::scrollbar-thumb {
+  background-color: #212121;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #212121;
+}
+::scrollbar-track {
+  background-color: #eee;
+}
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
