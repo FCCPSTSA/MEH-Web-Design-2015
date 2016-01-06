@@ -17,13 +17,16 @@ body, html {
     width: 100vw;
     height: 100vh;
 }
+body{
+  min-height: 1000px;
+}
 header {
-    height: 20vh;
     background-color: white;
     font-family: 'Raleway', sans-serif;
     z-index: 30;
     width: 100vw;
     box-shadow: 1px 1px 10px rgba(40, 40, 40, 0.6);
+    position: fixed;
 }
 * {
     margin: 0;
@@ -32,10 +35,10 @@ header {
     z-index: 30;
 }
 h1 {
-    font-size: 89px;
+    font-size: 75px;
     width: 100vw;
     color: #212121;
-    padding-top: 2vh;
+    padding-top: 1vh;
     font-family: 'Raleway', sans-serif;
     padding-left: 1vw;
     font-weight: 300;
