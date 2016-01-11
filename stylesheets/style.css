@@ -17,16 +17,22 @@ body, html {
     width: 100vw;
     height: 100vh;
 }
-body{
-  min-height: 1000px;
-}
 header {
-    background-color: white;
+    height: 100px;
+    background-color: #69D2E7;
     font-family: 'Raleway', sans-serif;
     z-index: 30;
     width: 100vw;
     box-shadow: 1px 1px 10px rgba(40, 40, 40, 0.6);
     position: fixed;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+body {
+  min-height:200vh;
 }
 * {
     margin: 0;
@@ -43,9 +49,13 @@ h1 {
     padding-left: 1vw;
     font-weight: 300;
     z-index: 30;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
 }
 p {
-    color: #212121;
+    color: #E0E4CC;
     z-index: 30;
 }
 .nav-button {
@@ -72,7 +82,7 @@ p {
     height: 6px;
     width: 80%;
     top: 5px;
-    background-color: #212121;
+    background-color: #F38630;
     border-radius: 5px;
     opacity: 1;
     left: 5px;
@@ -147,7 +157,7 @@ p {
     -moz-transition: .3s ease-in-out transform;
     -o-transition: .3s ease-in-out transform;
     transition: .3s ease-in-out transform;
-    background-color: white;
+    background-color: #F38630;
     box-shadow: 3px 3px 5px rgba(10, 10, 10, 0.8);
 }
 li {
@@ -160,9 +170,10 @@ li {
     font-family: 'Open Sans', sans-serif;
     color: #212121;
     border-radius: 2px;
+    font-size: 2.5vh;
 }
 li:hover {
-    background-color: #eee;
+    background-color: #A7DBD8;
 }
 a {
     text-decoration: none;
@@ -183,7 +194,7 @@ h2 {
     padding: 30vh 0 5vh 15vw;
     font: 64px 'Raleway', sans-serif;
     text-align: left;
-    color: white;
+    color: #F38630;
 }
 .landing {
     color: white;
@@ -200,6 +211,7 @@ h2 {
 }
 section p {
     font-weight: bolder;
+    color: #E0E4CC;
 }
 .section-two {
     background-image: url('../images/road.jpg');
