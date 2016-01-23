@@ -73,8 +73,9 @@ p {
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
     cursor: pointer;
-    z-index: 100;
+    z-index: 35;
     border-radius: 2px;
+    visibility: hidden;
 }
 .nav-button span {
     display: block;
@@ -242,4 +243,16 @@ svg {
     .our-web-design p {
         margin: 0 45vw 0 0;
     }
+}
+.toplinks li {
+    display: inline;
+    color: white;
+    top: -38px;
+    left: 5px;
+    position: relative;
+    left: 700px;
+    padding-left: 7px;
+}
+.z-indexresizing {
+
 }
