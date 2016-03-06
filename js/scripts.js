@@ -1,4 +1,4 @@
-$(document).on('scroll', function(e) {
+$(window).on('scroll', function(e) {
   var value = $(this).scrollTop();
   if (value < 200) {
     $('header').css({

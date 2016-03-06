@@ -73,7 +73,6 @@ p {
   cursor: pointer;
   z-index: 35;
   border-radius: 2px;
-  visibility: hidden;
 }
 .nav-button span {
   display: block;
