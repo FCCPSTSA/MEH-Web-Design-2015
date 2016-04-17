@@ -1,30 +1,30 @@
 $(window).on('scroll', function(e) {
   var value = $(this).scrollTop();
   if (value < 200) {
+    $('.nav-button').css({
+      'visibility': 'hidden'
+    });
+    $('.toplinks').css({
+      'visibility': 'visible'
+    });
     $('header').css({
       'height': '100px'
     });
     $('h1').css({
       'font-size': '75px'
-    });
+    });  
+  } else {
     $('.nav-button').css({
-      'visibility': 'hidden'
-    });
-    $('.toplinks').css({
       'visibility': 'visible'
     });
-  } else {
+    $('.toplinks').css({
+      'visibility': 'hidden'
+    });
     $('header').css({
       'height': '60px'
     });
     $('h1').css({
       'font-size': '40px'
-    });
-    $('.nav-button').css({
-      'visibility': 'visible'
-    });
-    $('.toplinks').css({
-      'visibility': 'hidden'
     });
   }
 });

@@ -1,0 +1,31 @@
+.timeline {
+	width: 80vw;
+	left: 10vw;
+	background-color: black;
+	height: 0.5vh;
+	position: fixed;
+	top: 49.75vh;
+}
+.point {
+	height: 4vh;
+	width: 4vh;
+	border-radius: 50%;
+	border: 2px solid white;
+	transition: .5s;
+	top: 47.9vh;
+	position: fixed;
+}
+.historypoint {
+	width: 20vw;
+	height: 10vh;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	position: fixed;
+}
+.point:hover {
+	background-color: rgba(255, 255, 255, 0.18);
+}
+body {
+	background-color: green;
+}
