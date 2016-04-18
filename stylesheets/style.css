@@ -13,44 +13,48 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/Roboto/v9/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
-    unicode-range: U+0000—001F;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v10/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Raleway Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v10/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 * {
   margin: 0;
   padding: 0;
 }
-body {
-    min-height: 10000px;
-}
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.37), rgba(38, 12, 12, 0));
+  background-color: white;
   height: 10vh;
   position: fixed;
   z-index: 200;
   top: 0px;
   width: 100vw;
+  font-family: 'Raleway Light';
+  box-shadow: 3px 3px 9px rgba(12,12,12,0.4);
 }
 header ul {
   display: inline;
-  font-family: 'Raleway', sans-serif;
-  color: white;
   left: 50vw;
   position: fixed;
   top: 3vh;
   list-style-type: none;
+  transition: .2s all;
 }
 header ul li {
   display: inline;
-  padding-left: 2vw;
+  padding-left: 3vw;
 }
 header h1 {
-  color: white;
-  font-family: 'Roboto', sans-serif;
   font-size: 2.5em;
+  padding: 1vh 1vw;
 }
 section {
   height: 100vh;
@@ -61,6 +65,11 @@ section {
   background-image: url(../images/road.jpg);
   background-size: 100vw 100vh;
 }
-.section2 {
-
+@media all and (max-width: 1250px) {
+  header ul li {
+    padding-left: 2vw;
+  }
+  header ul {
+    left: 60vw;
+  }
 }

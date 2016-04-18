@@ -37,12 +37,12 @@ for (k=0, l=0; k<8; k++) {
 	console.log(l)
 	if (isOdd(k) == true) {
 		console.log("truezlez")
-		$(historyboxesarray[k]).css('top', '30vh'); 
+		$(historyboxesarray[k]).css('top', '30vh');
 	}
 	else {
 		console.log("fizzlez")
 		console.log (isOdd(k))
-		$(historyboxesarray[k]).css('top', '54vh'); 
+		$(historyboxesarray[k]).css('top', '54vh');
 	}
 }
 magicboy = $('body div:nth-child(15)')

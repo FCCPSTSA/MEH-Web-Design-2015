@@ -1,7 +1,7 @@
 .timeline {
 	width: 80vw;
 	left: 10vw;
-	background-color: black;
+	background-color: rgba(220,220,220,0.4);
 	height: 0.5vh;
 	position: fixed;
 	top: 49.75vh;
@@ -11,21 +11,25 @@
 	width: 4vh;
 	border-radius: 50%;
 	border: 2px solid white;
-	transition: .5s;
+	-webkit-transition: .5s;
+	        transition: .5s;
 	top: 47.9vh;
+	background-color: #008000;
 	position: fixed;
 }
 .historypoint {
 	width: 20vw;
 	height: 10vh;
-	background-color: rgba(0, 0, 0, 0.2);
-	color: white;
 	font-family: 'Raleway', sans-serif;
 	position: fixed;
+	color: transparent;
 }
 .point:hover {
-	background-color: rgba(255, 255, 255, 0.18);
+	background-color: #008000;
+	border-color: #DDDDDD;
+	-webkit-filter: brightness(120%);
+	        filter: brightness(120%);
 }
 body {
-	background-color: green;
+	background-color: #008000;
 }
