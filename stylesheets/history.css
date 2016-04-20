@@ -1,0 +1,35 @@
+.timeline {
+	width: 80vw;
+	left: 10vw;
+	background-color: rgba(220,220,220,0.4);
+	height: 0.5vh;
+	position: fixed;
+	top: 49.75vh;
+}
+.point {
+	height: 4vh;
+	width: 4vh;
+	border-radius: 50%;
+	border: 2px solid white;
+	-webkit-transition: .5s;
+	        transition: .5s;
+	top: 47.9vh;
+	background-color: #008000;
+	position: fixed;
+}
+.historypoint {
+	width: 20vw;
+	height: 10vh;
+	font-family: 'Raleway', sans-serif;
+	position: fixed;
+	color: transparent;
+}
+.point:hover {
+	background-color: #008000;
+	border-color: #DDDDDD;
+	-webkit-filter: brightness(120%);
+	        filter: brightness(120%);
+}
+body {
+	background-color: #008000;
+}
