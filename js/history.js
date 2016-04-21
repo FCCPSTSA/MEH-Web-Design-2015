@@ -19,14 +19,11 @@ var points = document.getElementsByClassName( "point" );
 console.log(points);
 for (i = 0, j = 0, len = points.length; i<len; i++) {
 	j = i+1;
-	magic = (j*10+3)
 	points[i].style.left = (j*10+3)+'vw';
 }
 var historyboxes = document.getElementsByClassName( "historypoint" );
-for (k=0, l=0; k<8; k++) {
-	l = k+1;
-	historyboxes[k].style.left = l*10+'vw';
-	console.log(l)
+for (k=0; k<8; k++) {
+	historyboxes[k].style.left = (k*10+5)+'vw';
 	if (isOdd(k) == true) {
 		historyboxes[k].style.top = '30vh';
 	}
