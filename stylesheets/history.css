@@ -34,6 +34,7 @@
 	box-shadow: 0px 4px 4px rgba(38, 50, 56, 0.2);
 }
 .historypoint {
+	opacity: 0;
 	width: 20vw;
 	height: 10vh;
 	font-family: 'Open Sans', sans-serif;
@@ -43,6 +44,9 @@
 	color: #80DEEA;
 	box-shadow: 0px 4px 4px rgba(38, 50, 56, 0.2);
 	border: 2px solid white;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
 .point:hover {
 	background-color: #263238;
@@ -52,6 +56,7 @@
 }
 .point:hover + .historypoint {
 	visibility: visible;
+	opacity: 1;
 }
 body {
 	background-color: #263238;;
