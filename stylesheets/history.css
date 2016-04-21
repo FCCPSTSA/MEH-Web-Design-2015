@@ -1,10 +1,25 @@
+@font-face {
+  font-family: 'Raleway Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v10/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 .timeline {
 	width: 80vw;
 	left: 10vw;
-	background-color: rgba(220,220,220,0.4);
+	background-color: #80DEEA;
 	height: 0.5vh;
 	position: fixed;
 	top: 49.75vh;
+	box-shadow: 0px 4px 4px rgba(38, 50, 56, 0.2);
 }
 .point {
 	height: 4vh;
@@ -14,22 +29,30 @@
 	-webkit-transition: .5s;
 	        transition: .5s;
 	top: 47.9vh;
-	background-color: #008000;
+	background-color: #263238;
 	position: fixed;
+	box-shadow: 0px 4px 4px rgba(38, 50, 56, 0.2);
 }
 .historypoint {
 	width: 20vw;
 	height: 10vh;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	position: fixed;
-	color: transparent;
+	background-color: ;
+	visibility: hidden;
+	color: #80DEEA;
+	box-shadow: 0px 4px 4px rgba(38, 50, 56, 0.2);
+	border: 2px solid white;
 }
 .point:hover {
-	background-color: #008000;
+	background-color: #263238;
 	border-color: #DDDDDD;
 	-webkit-filter: brightness(120%);
 	        filter: brightness(120%);
 }
+.point:hover + .historypoint {
+	visibility: visible;
+}
 body {
-	background-color: #008000;
+	background-color: #263238;;
 }
