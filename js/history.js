@@ -1,54 +1,36 @@
 function isOdd(num) {
 	return num%2;
 }
-function findNthChild($element) {
-	nthchild = 1;
-	console.log($element);
-	if ($element.prev().hasClass('.point')) {
-		while ($element.prev().hasClass('.point')) {
-			nthchild++;
-			$element == $element.prev()
-		}
-		return nthchild;
-	}
-	else {
-		console.log('lmao');
-		return 1;
-	}
-}
+timeline = document.createElement('div');
+timeline.className = 'timeline';
+document.body.appendChild(timeline);
+data = ['200 bc ~ Water  wheels used in europe to grind grain', '1838AD ~ William Robert Grove makes the first hydrogen fuel cell creates electricity',"1860AD ~ Augustine Mouchot creates the first solar system. It used the sun's heat to make steam.",'1876AD ~ William Grylls Adams makes a solar cell that turns light directly into electricity.', '1888AD ~ First windmill to generate electricity is made in cleveland ohio','1921AD ~ First geothermal power plant is built in california', '1951AD ~ First nuclear reactor to generate electricity ', '1997AD ~ creates the toyota prius'];
 for (i=0; i<8; i++) {
 	new_point = document.createElement('div');
 	new_point.className = 'point';
-	document.body.appendChild(new_point);
+	timeline.appendChild(new_point);
+	new_history_point = document.createElement('div');
+	new_history_point.className = 'historypoint';
+	timeline.appendChild(new_history_point);
+	text_box = document.createTextNode(data[i]);
+	new_history_point.appendChild(text_box)
 }
 var points = document.getElementsByClassName( "point" );
-var pointsarray = jQuery.makeArray( points );
-console.log(pointsarray);
-for (i = 0, j = 0, len = pointsarray.length; i<len; i++) {
+console.log(points);
+for (i = 0, j = 0, len = points.length; i<len; i++) {
 	j = i+1;
-	$(pointsarray[i]).css('left', (j*10+3)+'vw');
+	magic = (j*10+3)
+	points[i].style.left = (j*10+3)+'vw';
 }
 var historyboxes = document.getElementsByClassName( "historypoint" );
-var historyboxesarray = jQuery.makeArray ( historyboxes );
-console.log(historyboxesarray.length);
 for (k=0, l=0; k<8; k++) {
 	l = k+1;
-	$(historyboxesarray[k]).css('left', (l*10)+'vw');
+	historyboxes[k].style.left = l*10+'vw';
 	console.log(l)
 	if (isOdd(k) == true) {
-		console.log("truezlez")
-		$(historyboxesarray[k]).css('top', '30vh');
+		historyboxes[k].style.top = '30vh';
 	}
 	else {
-		console.log("fizzlez")
-		console.log (isOdd(k))
-		$(historyboxesarray[k]).css('top', '54vh');
+		historyboxes[k].style.top = '54vh';
 	}
 }
-magicboy = $('body div:nth-child(15)')
-bigmagicboy = findNthChild(magicboy);
-console.log(bigmagicboy)
-$('.point').hover (function() {
-	pointnthchild = $(this).findNthChild;
-	console.log(pointnthchild);
-});
