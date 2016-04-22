@@ -30,6 +30,13 @@
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: underline;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
 header {
   background-color: #009688;
   height: 10vh;

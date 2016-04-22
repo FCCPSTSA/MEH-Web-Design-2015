@@ -21,12 +21,13 @@ for (i = 0, j = 0, len = points.length; i < len; i++) {
   j = i + 1;
   points[i].style.left = (j * 10 + 3) + 'vw';
 }
-var historyboxes = document.getElementsByClassName("historypoint");
-for (k = 0; k < 8; k++) {
-  historyboxes[k].style.left = (k * 10 + 5) + 'vw';
-  if (isOdd(k) == true) {
-    historyboxes[k].style.top = '30vh';
-  } else {
-    historyboxes[k].style.top = '54vh';
-  }
+var historyboxes = document.getElementsByClassName( "historypoint" );
+for (k=0; k<8; k++) {
+	historyboxes[k].style.left = (k*10+5)+'vw';
+	if (isOdd(k) == true) {
+		historyboxes[k].style.top = '30vh';
+	}
+	else {
+		historyboxes[k].style.top = '60vh';
+	}
 }
