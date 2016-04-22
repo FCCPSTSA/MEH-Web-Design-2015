@@ -28,6 +28,6 @@ for (k=0; k<8; k++) {
 		historyboxes[k].style.top = '30vh';
 	}
 	else {
-		historyboxes[k].style.top = '54vh';
+		historyboxes[k].style.top = '60vh';
 	}
 }
