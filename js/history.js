@@ -4,7 +4,7 @@ function isOdd(num) {
 timeline = document.createElement('div');
 timeline.className = 'timeline';
 document.body.appendChild(timeline);
-data = ['200 bc ~ Water  wheels used in europe to grind grain', '1838AD ~ William Robert Grove makes the first hydrogen fuel cell creates electricity', "1860AD ~ Augustine Mouchot creates the first solar system. It used the sun's heat to make steam.", '1876AD ~ William Grylls Adams makes a solar cell that turns light directly into electricity.', '1888AD ~ First windmill to generate electricity is made in cleveland ohio', '1921AD ~ First geothermal power plant is built in california', '1951AD ~ First nuclear reactor to generate electricity ', '1997AD ~ creates the toyota prius'];
+data = ['200 bc ~ Water  wheels used in europe to grind grain', '1838AD ~ William Robert Grove makes the first hydrogen fuel cell creates electricity', "1860AD ~ Augustine Mouchot creates the first solar system. It used the sun's heat to make steam.", '1876AD ~ William Grylls Adams makes a solar cell that turns light directly into electricity.', '1888AD ~ First windmill to generate electricity is made in cleveland ohio', '1921AD ~ First geothermal power plant is built in california', '1951AD ~ First nuclear reactor to generate electricity ', '1997AD ~ Toyota creates the toyota prius, one of the first hybrid cars'];
 for (i = 0; i < 8; i++) {
   new_point = document.createElement('div');
   new_point.className = 'point';
