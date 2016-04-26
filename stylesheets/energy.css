@@ -106,3 +106,6 @@ section {
   position: relative;
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
 }
+.nuclear {
+  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 96%);
+}
