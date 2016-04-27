@@ -53,9 +53,13 @@ header ul {
   position: fixed;
   top: 4vh;
   list-style-type: none;
-  transition: .2s all;
+  -webkit-transition: .2s all;
+          transition: .2s all;
   color: white;
   font-family: 'Roboto';
+}
+body {
+  overflow-x: hidden;
 }
 header ul li {
   display: inline;
@@ -63,10 +67,10 @@ header ul li {
 }
 header h1 {
   font-size: 2.5em;
-  padding: 1vh 1vw;
+  padding: 0;
   color: white;
 }
-.careers h2 {
+.types h2 {
   top: 15vh;
   position: relative;
   font-family: 'Roboto', 'Raleway', sans-serif;
@@ -75,4 +79,94 @@ p {
   top: 22vh;
   position: relative;
   font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+.types ul {
+  left: 2vw;
+  top: 25vh;
+  position: relative;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+
+}
+section {
+  height: 100vh;
+  width: 100vw;
+}
+.types {
+  background-color: #0D47A1;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.types:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 50%;
+  left: 0;
+  right: 0;
+  transform-origin: 100%;
+  z-index: -1;
+  -webkit-transform: skewY(-1.5deg);
+      -ms-transform: skewY(-1.5deg);
+          transform: skewY(-1.5deg);
+}
+.wind {
+  background-image: url('../images/windmill.jpg');
+  background-size: 100vw 100vh;
+  position: relative;
+}
+
+.solar {
+  background-color: #2196F3;
+  position: relative;
+}
+.solar:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 50%;
+  left: 0;
+  right: 0;
+  transform-origin: 100%;
+  z-index: -1;
+  -webkit-transform: skewY(-1.5deg);
+      -ms-transform: skewY(-1.5deg);
+          transform: skewY(-1.5deg);
+}
+.solar:before {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 50%;
+  left: 0;
+  right: 0;
+  transform-origin: 100% 0;
+  z-index: 1;
+  -webkit-transform: skewY(1.5deg);
+      -ms-transform: skewY(1.5deg);
+          transform: skewY(1.5deg);
+}
+.wind img {
+  position: absolute;
+  height: 8vh;
+  top: 20vh;
+  left: 45vw;
+  z-index: 2;
+  border-radius: 50%;
+  padding: 20px 15px 20px 15px;
+  background-color: #228B7E;
+}
+.wind-content {
+  position: absolute;
+  top: 25vh;
+  width: 100vw;
+  height: 82vh;
+  z-index: 1;
+  background-color: #00695C;
 }
