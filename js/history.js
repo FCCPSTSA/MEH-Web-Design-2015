@@ -24,7 +24,7 @@ for (i = 0, j = 0, len = points.length; i < len; i++) {
 var historyboxes = document.getElementsByClassName("historypoint");
 for (k = 0; k < 8; k++) {
     historyboxes[k].style.left = (k * 10 + 5) + 'vw';
-    if (isOdd(k) === true) {
+    if (isOdd(k) === 1) {
         historyboxes[k].style.top = '30vh';
     } else {
         historyboxes[k].style.top = '60vh';
