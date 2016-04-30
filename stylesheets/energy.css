@@ -75,10 +75,15 @@ header h1 {
   position: relative;
   font-family: 'Roboto', 'Raleway', sans-serif;
 }
-p {
+.types p {
   top: 22vh;
   position: relative;
   font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+p {
+  top: 2vh;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
 }
 .types ul {
   left: 2vw;
@@ -122,7 +127,6 @@ section {
   background-color: #2196F3;
   position: relative;
 }
-<<<<<<< HEAD
 .hydro {
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
   background-image: url(images/dam.jpg);
@@ -130,7 +134,6 @@ section {
   top: -12vh;
   position: relative;
 }
-=======
 .solar:after {
   background: inherit;
   bottom: 0;
@@ -173,10 +176,19 @@ section {
 }
 .wind-content {
   position: absolute;
-  top: 25vh;
+  top: 70vh;
   width: 100vw;
   height: 82vh;
   z-index: 1;
   background-color: #00695C;
 }
->>>>>>> ccac206835325b7397f11001ad763ac4851316ef
+.content {
+  background-color: black;
+  opacity: .8;
+  color: white;
+  top: 10vh;
+  position: relative;
+  width: 30vw;
+  font-family: 'Open Sans', sans-serif;
+  height: 40vh;
+}
