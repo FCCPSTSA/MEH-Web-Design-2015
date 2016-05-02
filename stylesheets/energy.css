@@ -191,4 +191,5 @@ section {
   width: 30vw;
   font-family: 'Open Sans', sans-serif;
   height: 40vh;
+  z-index: 20;
 }
