@@ -183,13 +183,17 @@ section {
   background-color: #00695C;
 }
 .content {
-  background-color: black;
-  opacity: .8;
-  color: white;
+  background-color: #FAFAFA;
+  opacity: 1;
+  color: #000000;
   top: 10vh;
   position: relative;
-  width: 30vw;
+  width: 32vw;
   font-family: 'Open Sans', sans-serif;
-  height: 40vh;
+  height: 43vh;
   z-index: 20;
+}
+p {
+  opacity: 0.54;
+  padding: 1vh 1vh;
 }
