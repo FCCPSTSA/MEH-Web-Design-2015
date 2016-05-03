@@ -129,7 +129,7 @@ section {
 }
 .hydro {
   -webkit-clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
-  background-image: url(images/dam.jpg);
+  background-image: url('../images/dam.jpg');
   background-size: 100vw 100vh;
   top: -12vh;
   position: relative;

@@ -6,13 +6,6 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfZBw1xU1rKptJj_0jans920.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-@font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -30,55 +23,39 @@
   margin: 0;
   padding: 0;
 }
-a {
-  text-decoration: underline;
-  color: white;
-}
-a:hover {
-  text-decoration: none;
-}
-header {
-  background-color: #1E88E5;
-  height: 10vh;
-  position: fixed;
-  z-index: 200;
-  top: 0px;
-  width: 100vw;
-  font-family: 'Roboto';
-  box-shadow: 3px 3px 9px rgba(12,12,12,0.4);
-}
-header ul {
-  display: inline;
-  left: 50vw;
-  position: fixed;
-  top: 4vh;
-  list-style-type: none;
-  transition: .2s all;
-  color: white;
-  font-family: 'Roboto';
-}
-header ul li {
-  display: inline;
-  padding-left: 3vw;
-}
-header h1 {
-  font-size: 2.5em;
-  padding: 1vh 1vw;
-  color: white;
-}
 section {
   height: 100vh;
+  text-align: center;
   width: 100vw;
 }
-.section1 {
-  background-image: url(../images/road.jpg);
-  background-size: 100vw 100vh;
+p {
+  font-family: 'Open Sans';
+  padding-top: 5vh;
 }
-@media all and (max-width: 1250px) {
-  header ul li {
-    padding-left: 2vw;
-  }
-  header ul {
-    left: 60vw;
-  }
+h2 {
+  font-family: 'Raleway';
+  font-size: 3em;
+}
+.our-chapter {
+  background-image: url('../images/building.jpg');
+  color: white;
+}
+.our-chapter p {
+  margin-right: 15vw;
+  margin-left: 15vw;
+}
+.our-chapter h2 {
+  padding-top: 30vh;
+}
+.our-web-design h2 {
+  padding-top: 30vh;
+  overflow-y: hidden;
+}
+.our-web-design p {
+  margin-right: 25vw;
+  margin-left: 25vw;
+}
+svg {
+  position: absolute;
+  height: 40vh;
 }
