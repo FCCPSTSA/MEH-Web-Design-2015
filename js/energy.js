@@ -1,15 +1,15 @@
 var contentplace = document.getElementsByClassName('content');
 for (i = 0; i < contentplace.length; i++) {
-  var randnum = Math.floor(Math.random() * 80);
+  var randnum = Math.floor(Math.random() * 70);
   var orig = randnum;
-  if (randnum < 35) {
-    randnum = randnum + 35;
+  if (randnum < 25) {
+    randnum = randnum + 25;
   }
-  if (randnum > 65) {
+  if (randnum > 60) {
     randnum = randnum - 35;
   }
-  if (orig > 48) {
-    while (orig > 48) {
+  if (orig > 30) {
+    while (orig > 30) {
       orig--;
     }
   }

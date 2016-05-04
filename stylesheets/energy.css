@@ -31,8 +31,8 @@
   padding: 0;
 }
 a {
+  color: #212121;
   text-decoration: underline;
-  color: white;
 }
 a:hover {
   text-decoration: none;
@@ -58,6 +58,16 @@ header ul {
   color: white;
   font-family: 'Roboto';
 }
+.types a {
+  border-bottom: 1px solid rgba(12,12,12,0.6);
+  color: #212121;
+  transition: .3s all;
+  margin-right: 80vw
+}
+.types a:hover {
+  border-bottom: 1px solid rgba(12,12,12,0.8);
+  transition: .3s all;
+}
 body {
   overflow-x: hidden;
 }
@@ -72,11 +82,14 @@ header h1 {
 }
 .types h2 {
   top: 15vh;
+  text-align: center;
+  font-size: 2em;
   position: relative;
   font-family: 'Roboto', 'Raleway', sans-serif;
 }
 .types p {
   top: 22vh;
+  margin-right: 50vw;
   position: relative;
   font-family: 'Open Sans', 'Roboto', sans-serif;
 }
@@ -86,8 +99,9 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 .types ul {
-  left: 2vw;
+  left: 5vw;
   top: 25vh;
+  list-style: none;
   position: relative;
   font-family: 'Open Sans', 'Roboto', sans-serif;
 }
@@ -96,8 +110,8 @@ section {
   width: 100vw;
 }
 .types {
-  background-color: #0D47A1;
-  color: white;
+  background-color: white;
+  color: #212121;
   position: relative;
   z-index: 1;
 }
@@ -118,34 +132,27 @@ section {
 }
 .wind {
   background-image: url('../images/windmill.jpg');
-  background-size: 100vw 100vh;
+  background-size: cover;
   position: relative;
 }
 .solar {
-  background-color: #2196F3;
+  background-image: url('../images/solar.jpg');
+  background-size: cover;
   position: relative;
 }
 .hydro {
-  -webkit-clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
   background-image: url('../images/dam.jpg');
   background-size: 100vw 100vh;
-  top: -12vh;
   position: relative;
 }
-.solar:after {
-  background: inherit;
-  bottom: 0;
-  content: '';
-  display: block;
-  position: absolute;
-  height: 50%;
-  left: 0;
-  right: 0;
-  transform-origin: 100%;
-  z-index: -1;
-  -webkit-transform: skewY(-1.5deg);
-  -ms-transform: skewY(-1.5deg);
-  transform: skewY(-1.5deg);
+.nuclear {
+  background-image: url('../images/nuclear.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+.geothermal {
+  background-image: url('../images/geothermal.jpg');
+  background-size: cover;
 }
 .solar:before {
   background: inherit;
@@ -162,6 +169,36 @@ section {
   -ms-transform: skewY(1.5deg);
   transform: skewY(1.5deg);
 }
+.hydro:before {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 50%;
+  left: 0;
+  right: 0;
+  transform-origin: 100% 0;
+  z-index: 1;
+  -webkit-transform: skewY(1.5deg);
+  -ms-transform: skewY(1.5deg);
+  transform: skewY(1.5deg);
+}
+.hydro:after {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 50%;
+  left: 0;
+  right: 0;
+  transform-origin: 100% 0;
+  z-index: 2;
+  -webkit-transform: skewY(1.5deg);
+  -ms-transform: skewY(1.5deg);
+  transform: skewY(1.5deg);
+}
 .wind img {
   position: absolute;
   height: 8vh;
@@ -172,24 +209,27 @@ section {
   padding: 20px 15px 20px 15px;
   background-color: #228B7E;
 }
-.wind-content {
+.wind .content {
   position: absolute;
   top: 70vh;
-  width: 100vw;
-  height: 82vh;
+  height: 60vh !important;
   z-index: 1;
-  background-color: #00695C;
+  background-color: white;
+}
+.nuclear .content {
+  height: 65vh !important;
 }
 .content {
-  background-color: #FAFAFA;
+  background-color: rgba(255,255,255,0.9);
   opacity: 1;
-  color: #000000;
+  color: #212121;
   top: 10vh;
   position: relative;
   width: 32vw;
   font-family: 'Open Sans', sans-serif;
   height: 43vh;
   z-index: 20;
+  box-shadow: 1px 1px 20px rgba(12,12,12,0.1);
 }
 p {
   opacity: 0.54;
