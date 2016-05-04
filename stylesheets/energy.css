@@ -30,11 +30,14 @@
   margin: 0;
   padding: 0;
 }
-a {
+ul a {
   color: #212121;
   text-decoration: underline;
 }
-a:hover {
+ul a:hover {
+  text-decoration: none;
+}
+a {
   text-decoration: none;
 }
 header {
@@ -234,4 +237,9 @@ section {
 p {
   opacity: 0.54;
   padding: 1vh 1vh;
+}
+h2 {
+  text-align: center;
+  color: #000000;
+  opacity: 0.87;
 }

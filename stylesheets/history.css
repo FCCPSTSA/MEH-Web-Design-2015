@@ -70,7 +70,7 @@ header h1 {
 .timeline {
   width: 80vw;
   left: 10vw;
-  background-color: #009688;
+  background-color: #1E88E5;
   height: 0.5vh;
   position: fixed;
   top: 49.75vh;
@@ -80,7 +80,7 @@ header h1 {
   height: 4vh;
   width: 4vh;
   border-radius: 50%;
-  border: 2px solid #009688;
+  border: 2px solid #1E88E5;
   -webkit-transition: .5s;
   transition: .5s;
   top: 47.9vh;
@@ -91,12 +91,12 @@ header h1 {
 .historypoint {
   width: 0vw;
   height: 0vh;
-  color: #009688;
+  color: #1E88E5;
   font-family: 'Open Sans', sans-serif;
   position: fixed;
   visibility: hidden;
   box-shadow: 0px 4px 4px rgba(38, 50, 56, 0.2);
-  border: 2px solid #009688;
+  border: 2px solid #1E88E5;
   transition: .3s ease-in-out;
   -moz-transition: .3s ease-in-out;
   -webkit-transition: .3s ease-in-out;
@@ -105,7 +105,7 @@ header h1 {
   padding: 5px;
 }
 .point:hover {
-  background-color: #009688;
+  background-color: #1E88E5;
   -webkit-filter: brightness(120%);
   filter: brightness(120%);
 }
