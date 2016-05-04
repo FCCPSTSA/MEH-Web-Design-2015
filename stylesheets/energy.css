@@ -38,14 +38,14 @@ a:hover {
   text-decoration: none;
 }
 header {
-  background-color: #009688;
+  background-color: #1E88E5;
   height: 10vh;
   position: fixed;
   z-index: 200;
   top: 0px;
   width: 100vw;
   font-family: 'Roboto';
-  box-shadow: 3px 3px 9px rgba(12,12,12,0.4);
+  box-shadow: 3px 3px 9px rgba(12, 12, 12, 0.4);
 }
 header ul {
   display: inline;
@@ -54,7 +54,7 @@ header ul {
   top: 4vh;
   list-style-type: none;
   -webkit-transition: .2s all;
-          transition: .2s all;
+  transition: .2s all;
   color: white;
   font-family: 'Roboto';
 }
@@ -90,7 +90,6 @@ p {
   top: 25vh;
   position: relative;
   font-family: 'Open Sans', 'Roboto', sans-serif;
-
 }
 section {
   height: 100vh;
@@ -114,15 +113,14 @@ section {
   transform-origin: 100%;
   z-index: -1;
   -webkit-transform: skewY(-1.5deg);
-      -ms-transform: skewY(-1.5deg);
-          transform: skewY(-1.5deg);
+  -ms-transform: skewY(-1.5deg);
+  transform: skewY(-1.5deg);
 }
 .wind {
   background-image: url('../images/windmill.jpg');
   background-size: 100vw 100vh;
   position: relative;
 }
-
 .solar {
   background-color: #2196F3;
   position: relative;
@@ -146,8 +144,8 @@ section {
   transform-origin: 100%;
   z-index: -1;
   -webkit-transform: skewY(-1.5deg);
-      -ms-transform: skewY(-1.5deg);
-          transform: skewY(-1.5deg);
+  -ms-transform: skewY(-1.5deg);
+  transform: skewY(-1.5deg);
 }
 .solar:before {
   background: inherit;
@@ -161,8 +159,8 @@ section {
   transform-origin: 100% 0;
   z-index: 1;
   -webkit-transform: skewY(1.5deg);
-      -ms-transform: skewY(1.5deg);
-          transform: skewY(1.5deg);
+  -ms-transform: skewY(1.5deg);
+  transform: skewY(1.5deg);
 }
 .wind img {
   position: absolute;

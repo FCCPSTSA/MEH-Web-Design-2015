@@ -52,10 +52,12 @@ h2 {
   overflow-y: hidden;
 }
 .our-web-design p {
-  margin-right: 25vw;
-  margin-left: 25vw;
+  margin-right: 35vw;
+  margin-left: 15vw;
 }
 svg {
   position: absolute;
-  height: 40vh;
+  height: 30vh;
+  margin-top: -30vh;
+  margin-left: 10vw;
 }

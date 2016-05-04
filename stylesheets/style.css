@@ -45,7 +45,7 @@ header {
   top: 0px;
   width: 100vw;
   font-family: 'Roboto';
-  box-shadow: 3px 3px 9px rgba(12,12,12,0.4);
+  box-shadow: 3px 3px 9px rgba(12, 12, 12, 0.4);
 }
 header ul {
   display: inline;
@@ -81,4 +81,7 @@ section {
   header ul {
     left: 60vw;
   }
+}
+body {
+  overflow-x: hidden;
 }
