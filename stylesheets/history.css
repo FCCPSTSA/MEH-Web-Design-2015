@@ -37,36 +37,6 @@ a {
 a:hover {
   text-decoration: none;
 }
-header {
-  background-color: #1E88E5;
-  height: 10vh;
-  position: fixed;
-  z-index: 200;
-  top: 0px;
-  width: 100vw;
-  font-family: 'Roboto';
-  box-shadow: 3px 3px 9px rgba(12, 12, 12, 0.4);
-}
-header ul {
-  display: inline;
-  left: 50vw;
-  position: fixed;
-  top: 4vh;
-  list-style-type: none;
-  transition: .2s all;
-  color: white;
-  font-family: 'Roboto';
-}
-header ul li {
-  display: inline;
-  padding-left: 3vw;
-  padding-right: 0vw;
-}
-header h1 {
-  font-size: 2.5em;
-  padding: 1vh 1vw;
-  color: white;
-}
 .timeline {
   width: 80vw;
   left: 10vw;

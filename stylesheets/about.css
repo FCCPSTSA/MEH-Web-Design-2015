@@ -58,6 +58,21 @@ h2 {
 svg {
   position: absolute;
   height: 30vh;
-  margin-top: -30vh;
+  margin-top: -22vh;
   margin-left: 10vw;
+}
+.bios {
+  font-family: 'Open Sans';
+  text-align: left;
+  margin-left: 30vw;
+}
+.bios a {
+  color: #FF6F00;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+.our-web-design p {
+  font-size: 1.5em;
+  text-align: left;
+  margin-left: 20vw;
 }
