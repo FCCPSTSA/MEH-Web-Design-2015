@@ -29,12 +29,13 @@ section {
     width: 100vw;
 }
 p {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     padding-top: 5vh;
 }
 h2 {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 3em;
+    font-weight: 200;
 }
 .our-chapter {
     background-image: url('../images/building.jpg');
@@ -62,17 +63,22 @@ svg {
     margin-left: 10vw;
 }
 .bios {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     text-align: left;
     margin-left: 30vw;
 }
-.bios a {
+section a {
     color: #FF6F00;
     text-decoration: none;
     font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
 }
+
 .our-web-design p {
     font-size: 1.5em;
     text-align: left;
     margin-left: 20vw;
+}
+.info h2 {
+    padding-top: 25vh;
 }
