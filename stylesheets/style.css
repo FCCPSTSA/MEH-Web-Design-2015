@@ -50,7 +50,7 @@ header {
     z-index: 200;
     top: 0px;
     width: 100vw;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     box-shadow: 3px 3px 9px rgba(12, 12, 12, 0.4);
 }
 header ul {
@@ -61,7 +61,8 @@ header ul {
     list-style-type: none;
     transition: .2s all;
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 header ul li {
     display: inline;
@@ -70,6 +71,7 @@ header h1 {
     font-size: 2em;
     padding: 2vh 1vw;
     color: white;
+    font-weight: 200;
 }
 section {
     height: 100vh;
