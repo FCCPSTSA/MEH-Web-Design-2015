@@ -42,7 +42,7 @@ a {
 }
 .types a {
     border-bottom: 1px solid rgba(12, 12, 12, 0.6);
-    color: #212121;
+    color: #FF6F00;
     -webkit-transition: .3s all;
     transition: .3s all;
     margin-right: 80vw
@@ -242,4 +242,19 @@ h2 {
     color: #000000;
     opacity: 0.87;
     filter: alpha(opacity=87);
+    font-family: 'Raleway', sans-serif;
+}
+#interview h2 {
+  top: 2vh;
+  position: relative;
+}
+.solar .content {
+  height: 57vh;
+}
+.hydro .content {
+  height: 48vh;
+}
+.geothermal .content {
+  height: 77vh;
+  top: 7vh !important;
 }
