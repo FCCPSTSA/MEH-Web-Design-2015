@@ -247,6 +247,7 @@ h2 {
 #interview h2 {
   top: 2vh;
   position: relative;
+  padding-bottom: 2vh;
 }
 .solar .content {
   height: 57vh;
