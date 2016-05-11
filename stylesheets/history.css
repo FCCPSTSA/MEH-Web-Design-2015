@@ -73,6 +73,7 @@ a:hover {
     animation: text .3s;
     overflow: hidden;
     padding: 5px;
+    margin-left: 8vw;
 }
 .point:hover {
     background-color: #1E88E5;
@@ -88,10 +89,27 @@ a:hover {
     }
 }
 .point:hover + .historypoint {
-    width: 20vw;
-    height: 10vh;
+    animation: .5s scale;
+    width: 200px;
+    height: 100px;
     visibility: visible;
     opacity: 1;
+}
+@keyframes scale {
+    0% {
+        width: 0;
+        height: 0;
+        border-color: tranparent;
+    }
+    50% {
+        height: 100px;
+        width: 0px;
+        margin-left: 8vw;
+    }
+    100% {
+        width: 200px;
+        margin-left: 8vw;
+    }
 }
 body {
     background-color: #FAFAFA;

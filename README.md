@@ -8,10 +8,10 @@ Code this website contains may not be reproduced at this point in time. However,
 How to do what you please when that's available:
 
 ```
-1\. Fork it
-2\. Change the code
-3\. ????
-4\. Profit
+1. Fork it
+2. Change the code
+3. ????
+4. Profit
 ```
 
 ## Libraries used in Site
