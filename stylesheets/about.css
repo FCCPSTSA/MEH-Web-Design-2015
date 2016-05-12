@@ -73,7 +73,6 @@ section a {
     font-size: 1.1em;
     font-family: 'Open Sans', sans-serif;
 }
-
 .our-web-design p {
     font-size: 1.5em;
     text-align: left;
@@ -81,4 +80,12 @@ section a {
 }
 .info h2 {
     padding-top: 25vh;
+}
+#whereyouat {
+    position: absolute;
+    top: 8vh;
+    width: 2vw;
+    background-color: white;
+    height: .5vh;
+    left: 85.5vw !important;
 }
