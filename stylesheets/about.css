@@ -39,6 +39,7 @@ h2 {
 }
 .our-chapter {
     background-image: url('../images/building.jpg');
+    background-size: cover;
     color: white;
 }
 .our-chapter p {
