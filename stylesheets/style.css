@@ -104,9 +104,9 @@ body {
 }
 #whereyouat {
     position: absolute;
-    top: 8vh;
-    width: 2vw;
+    top: 60px;
+    width: 30px;
     background-color: white;
-    height: .5vh;
-    left: 564px;
+    height: 3px;
+    left: 562px;
 }

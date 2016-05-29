@@ -275,9 +275,9 @@ h2 {
 }
 #whereyouat {
     position: absolute;
-    top: 8vh;
-    width: 2vw;
+    top: 60px;
+    width: 30px;
     background-color: white;
-    height: .5vh;
+    height: 3px;
     left: 710px !important;
 }
