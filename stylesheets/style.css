@@ -43,7 +43,7 @@ header a:hover {
 }
 header {
     background-color: #1E88E5;
-    height: 10vh;
+    height: 75px;
     position: fixed;
     z-index: 200;
     top: 0px;
@@ -53,9 +53,9 @@ header {
 }
 header ul {
     display: inline;
-    left: 45vw;
+    left: 550px;
     position: fixed;
-    top: 4vh;
+    top: 30px;
     list-style-type: none;
     transition: .2s all;
     color: white;
@@ -67,7 +67,7 @@ header ul li {
 }
 header h1 {
     font-size: 2em;
-    padding: 2vh 1vw;
+    padding: 17px 6px;
     color: white;
     font-weight: 200;
 }
@@ -108,5 +108,5 @@ body {
     width: 2vw;
     background-color: white;
     height: .5vh;
-    left: 46vw;
+    left: 564px;
 }
