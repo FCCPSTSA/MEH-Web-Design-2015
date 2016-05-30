@@ -98,6 +98,9 @@ section {
     header ul {
         left: 60vw;
     }
+    header {
+        height: 12.5vh;
+    }
 }
 body {
     overflow-x: hidden;
