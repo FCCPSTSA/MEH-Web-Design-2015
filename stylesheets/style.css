@@ -91,7 +91,7 @@ section {
     font-family: 'Open Sans';
     font-size: 1.5em;
 }
-@media all and (max-width: 150px) {
+@media all and (max-width: 140px) {
     header ul li {
         margin-left: 2vw;
     }
@@ -99,7 +99,7 @@ section {
         left: 60vw;
     }
     header {
-        height: 12.5vh;
+        height: 12.5vh !important;
     }
 }
 body {
