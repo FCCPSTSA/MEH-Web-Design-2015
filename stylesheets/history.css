@@ -130,9 +130,9 @@ body {
     position: fixed;
 }
 .dialog {
-    height: 50vh;
+    height: 30vh;
     width: 80vw;
-    top: 25vh;
+    top: 35vh;
     left: 10vw;
     background-color: #1E88E5;
     z-index: 1738;
@@ -142,7 +142,10 @@ body {
 .dialog p {
     font-family: 'Roboto', sans-serif;
     position: relative;
-    left: 10vw;
+    left: 2vw;
     top: 4vh;
+    font-size: 2em;
     color: white;
+    text-align: center;
+    margin-right: 2vw;
 }
