@@ -122,3 +122,30 @@ body {
     height: 3px;
     left: 930px !important;
 }
+#dimmer {
+    z-index: 300;
+    background-color: rgba(0,0,0,0.4);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.dialog {
+    height: 30vh;
+    width: 80vw;
+    top: 35vh;
+    left: 10vw;
+    background-color: #1E88E5;
+    z-index: 1738;
+    position: fixed;
+    box-shadow: 3px 3px 9px rgba(12, 12, 12, 0.4);
+}
+.dialog p {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 2vw;
+    top: 4vh;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-right: 2vw;
+}

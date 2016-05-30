@@ -1,6 +1,10 @@
 function isOdd(num) {
     return num % 2;
 }
+function disappear() {
+    dialog = document.getElementById('dialogz');
+    dialog.style.visibility = 'hidden';
+}
 timeline = document.createElement('div');
 timeline.className = 'timeline';
 document.body.appendChild(timeline);
@@ -30,3 +34,4 @@ for (k = 0; k < 8; k++) {
         historyboxes[k].style.top = '60vh';
     }
 }
+document.getElementById('dimmer').addEventListener('click', disappear);
