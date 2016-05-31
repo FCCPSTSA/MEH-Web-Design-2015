@@ -158,4 +158,6 @@ button {
     position: fixed;
     top: 57vh;
     left: 80vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
 }
