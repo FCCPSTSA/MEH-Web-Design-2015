@@ -35,3 +35,4 @@ for (k = 0; k < 8; k++) {
     }
 }
 document.getElementById('dimmer').addEventListener('click', disappear);
+document.getElementById('button').addEventListener('click', disappear);
