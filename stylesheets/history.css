@@ -131,33 +131,42 @@ body {
 }
 .dialog {
     height: 30vh;
-    width: 80vw;
-    top: 35vh;
-    left: 10vw;
-    background-color: #1E88E5;
+    width: 40vw;
+    top: 30vh;
+    left: 30vw;
+    background-color: #FAFAFA;
     z-index: 1738;
     position: fixed;
-    box-shadow: 3px 3px 9px rgba(12, 12, 12, 0.4);
+    box-shadow: 3px 3px 9px rgba(24, 24, 24, 0.3);
 }
 .dialog p {
     font-family: 'Roboto', sans-serif;
     position: relative;
-    left: 2vw;
     top: 4vh;
-    font-size: 2em;
-    color: white;
+    line-height: 1.5;
+    font-size: 1.5em;
+    color: #212121;
     text-align: center;
-    margin-right: 2vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
 button {
-    width: 5vw;
+    width: 4vw;
     height: 4vh;
-    background-color: #FF6F00;
+    margin-top: 10vh;
+    margin-left: 30vw;
+    background-color: transparent;
     border: none;
-    color: white;
+    color: #1E88E5;
     position: fixed;
-    top: 57vh;
-    left: 80vw;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
+    border-radius: 2px;
+    padding: 5px 0 5px 0;
+}
+button:hover {
+  background-color: rgba(100,100,100,0.3);
+}
+button:focus {
+  outline: none;
 }
