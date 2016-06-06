@@ -91,7 +91,7 @@ section {
     font-family: 'Open Sans';
     font-size: 1.5em;
 }
-@media all and (max-width: 150px) {
+@media all and (max-width: 140px) {
     header ul li {
         margin-left: 2vw;
     }
@@ -99,17 +99,48 @@ section {
         left: 60vw;
     }
     header {
-        height: 12.5vh;
+        height: 12.5vh !important;
     }
 }
 body {
     overflow-x: hidden;
 }
+
 #whereyouat {
     position: absolute;
     top: 60px;
     width: 30px;
     background-color: white;
     height: 3px;
-    left: 562px;
+    z-index: -5;
+}
+#whereyouat.history {
+    transform: translate(-368px, 0px);
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
+}
+#whereyouat.energy {
+    transform: translate(-148px, 0px);
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
+}
+#whereyouat.about {
+    transform: translate(-538px, 0px);
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
 }

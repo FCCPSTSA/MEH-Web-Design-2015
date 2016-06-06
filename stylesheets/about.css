@@ -41,6 +41,8 @@ h2 {
     background-image: url('../images/building.jpg');
     background-size: cover;
     color: white;
+    position: fixed;
+    z-index: -3;
 }
 .our-chapter p {
     margin-right: 15vw;
@@ -48,6 +50,12 @@ h2 {
 }
 .our-chapter h2 {
     padding-top: 30vh;
+}
+.our-web-design {
+    background-color: white;
+    z-index: 11;
+    top: 100vh;
+    position: absolute;
 }
 .our-web-design h2 {
     padding-top: 30vh;
@@ -79,6 +87,11 @@ section a {
     text-align: left;
     margin-left: 20vw;
 }
+.info {
+    background-color: white;
+    top: 200vh;
+    position: absolute;
+}
 .info h2 {
     padding-top: 25vh;
 }
@@ -88,5 +101,34 @@ section a {
     width: 30px;
     background-color: white;
     height: 3px;
-    left: 1100px !important;
+}
+#whereyouat.history {
+    transform: translate(170px, 0px);
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
+}
+#whereyouat.energy {
+    transform: translate(390px, 0px);
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
+}
+#whereyouat.home {
+    transform: translate(538px, 0px);
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
 }
