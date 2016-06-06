@@ -105,11 +105,42 @@ section {
 body {
     overflow-x: hidden;
 }
+
 #whereyouat {
     position: absolute;
     top: 60px;
     width: 30px;
     background-color: white;
     height: 3px;
-    left: 562px;
+    z-index: -5;
+}
+#whereyouat.history {
+    transform: translate(-368px, 0px);
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
+}
+#whereyouat.energy {
+    transform: translate(-148px, 0px);
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
+}
+#whereyouat.about {
+    transform: translate(-538px, 0px);
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
 }

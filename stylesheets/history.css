@@ -120,7 +120,6 @@ body {
     width: 30px;
     background-color: white;
     height: 3px;
-    left: 930px !important;
 }
 #dimmer {
     z-index: 300;
@@ -169,4 +168,34 @@ button:hover {
 }
 button:focus {
   outline: none;
+}
+#whereyouat.energy {
+    transform: translate(220px, 0px) !important;
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
+}
+#whereyouat.about {
+    transform: translate(-170px, 0px) !important;
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
+}
+#whereyouat.home {
+    transform: translate(368px, 0px) !important;
+    -moz-transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 3;
 }

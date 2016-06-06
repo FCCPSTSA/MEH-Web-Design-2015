@@ -3,6 +3,7 @@ function isOdd(num) {
 }
 function disappear() {
     document.getElementById('dialogz').style.visibility = 'hidden';
+    localStorage.setItem('seenit', 'true');
 }
 function createNew(name, append) {
     item = document.createElement('div');
@@ -33,5 +34,27 @@ for (k = 0; k < 8; k++) {
         historyboxes[k].style.top = '60vh';
     }
 }
+if (localStorage.seenit == 'true') {
+    disappear();
+}
+previouspage = localStorage.lastpage;
+bar = document.getElementById('whereyouat');
+console.log(localStorage.lastpage)
+function toggleClass(name) {
+    bar.className = name;
+}
+if (previouspage == 'energy') {
+    bar.style.left = '710px';
+    setTimeout(function() {toggleClass('energy')}, 200)
+} if (previouspage == 'history') {
+    bar.style.left = '930px';
+} if (previouspage == 'about') {
+    bar.style.left = '1100px';
+    setTimeout(function () {toggleClass('about')}, 200); 
+} if (previouspage == 'home') {
+    bar.style.left = '562px';   
+    setTimeout(function () {toggleClass('home')}, 200);
+}
+localStorage.setItem('lastpage', 'history')
 document.getElementById('dimmer').addEventListener('click', disappear);
 document.getElementById('button').addEventListener('click', disappear);
