@@ -36,5 +36,7 @@ if (previouspage == 'energy') {
 } if (previouspage == 'home') {
     bar.style.left = '562px';   
     setTimeout(function () {toggleClass('home')}, 200);
+} if (previouspage == '') {
+    bar.style.left = '710px';
 }
 localStorage.setItem('lastpage', 'energy')

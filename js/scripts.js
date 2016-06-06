@@ -13,8 +13,9 @@ if (previouspage == 'energy') {
 } if (previouspage == 'about') {
 	bar.style.left = '1100px';
 	setTimeout(function () {toggleClass('about')}, 200);
-}
-if (previouspage == 'home') {
+} if (previouspage == 'home') {
 	bar.style.left = '562px';	
+} if (previouspage == '') {
+	bar.style.left = '562px';
 }
 localStorage.setItem('lastpage', 'home')
