@@ -1,3 +1,12 @@
+### To do:
+
+```
+1. Responsiveness
+2. If we could host it on a legit site
+3. Footer (we should discuss the design on that)
+4. [Big book of design stuff that we should do](http://pastebin.com/XTF9yJsB "that good stuff")
+```
+
 # MEH-Web-Design-2015
 
 The website for the Web Design event in TSA. Site designed and created by the MEH Web Design Team of 2015.
