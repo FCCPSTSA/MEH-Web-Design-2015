@@ -4,7 +4,7 @@
 1. Responsiveness
 2. If we could host it on a legit site
 3. Footer (we should discuss the design on that)
-4. [Big book of design stuff that we should do](http://pastebin.com/XTF9yJsB "that good stuff")
+4. [Big book of design stuff that we should do](http://pastebin.com/XTF9yJsB)
 ```
 
 # MEH-Web-Design-2015
