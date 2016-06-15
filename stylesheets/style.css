@@ -87,6 +87,7 @@ section {
     padding-top: 40vh;
     font-family: 'Raleway';
     font-size: 3em;
+    color: white;
 }
 .intro p {
     font-family: 'Open Sans';
@@ -144,7 +145,6 @@ body {
     transition: .5s ease-in-out;
     z-index: 3;
 }
-<<<<<<< HEAD
 .hoverbar {
     position: absolute;
     top: 60px;
@@ -392,7 +392,7 @@ h2 {
     background-color: #141414;
     height: 15vh;
     width: 100%;
-    top: 100vh;
+    top: 850vh;
     position: absolute;
     color: rgb(170, 170, 170);
     font-family: 'Open Sans';
@@ -416,4 +416,11 @@ h2 {
     -webkit-filter: blur(10px);
     bottom: 14vh;
     z-index: 50000;
+}
+/* Blaze it */
+a {
+    text-decoration: underline;
+}
+a:hover {
+    pointer: hover;
 }

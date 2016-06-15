@@ -1,22 +1,96 @@
-previouspage = localStorage.lastpage;
-bar = document.getElementById('whereyouat');
-console.log(localStorage.lastpage)
+var previouspage = localStorage.lastpage;
+var bar = document.getElementById('whereyouat');
+var link = {
+    wind: document.getElementById('windLink'),
+    solar: document.getElementById('solarLink'),
+    hydro: document.getElementById('hydroLink'),
+    nuclear: document.getElementById('nuclearLink'),
+    geothermal: document.getElementById('geothermalLink'),
+};
+console.log(localStorage.lastpage);
 
 function toggleClass(name) {
     bar.className = name;
 }
 if (previouspage == 'history') {
-	bar.style.left = '712px';
-	setTimeout(function () {toggleClass('history')}, 200);
-} if (previouspage == 'about') {
-	bar.style.left = '885px';
-	setTimeout(function () {toggleClass('about')}, 200);
-} if (previouspage == 'home') {
-	bar.style.left = '562px';	
-} if (previouspage == '') {
-	bar.style.left = '562px';
+    bar.style.left = '712px';
+    setTimeout(function() {
+        toggleClass('history');
+    }, 200);
 }
-localStorage.setItem('lastpage', 'home')
+if (previouspage == 'about') {
+    bar.style.left = '885px';
+    setTimeout(function() {
+        toggleClass('about');
+    }, 200);
+}
+if (previouspage == 'home') {
+    bar.style.left = '562px';
+}
+if (previouspage === '') {
+    bar.style.left = '562px';
+}
+localStorage.setItem('lastpage', 'home');
+link.wind.onclick = function() {
+    clearInterval(scroll);
+    var viewport = window.innerHeight;
+    console.log(viewport);
+    var scroll = setInterval(function() {
+        document.documentElement.scrollTop += 25;
+        if (document.documentElement.scrollTop >= viewport * 2) {
+            clearInterval(scroll);
+            document.documentElement.scrollTop = viewport * 2;
+        }
+    }, 10);
+};
+link.solar.onclick = function() {
+    clearInterval(scroll);
+    var viewport = window.innerHeight;
+    console.log(viewport);
+    var scroll = setInterval(function() {
+        document.documentElement.scrollTop += 25;
+        if (document.documentElement.scrollTop >= viewport * 3) {
+            clearInterval(scroll);
+            document.documentElement.scrollTop = viewport * 3;
+        }
+    }, 10);
+};
+link.hydro.onclick = function() {
+    clearInterval(scroll);
+    var viewport = window.innerHeight;
+    console.log(viewport);
+    var scroll = setInterval(function() {
+        document.documentElement.scrollTop += 25;
+        if (document.documentElement.scrollTop >= viewport * 3) {
+            clearInterval(scroll);
+            document.documentElement.scrollTop = viewport * 3;
+        }
+    }, 10);
+};
+link.nuclear.onclick = function() {
+    clearInterval(scroll);
+    var viewport = window.innerHeight;
+    console.log(viewport);
+    var scroll = setInterval(function() {
+        document.documentElement.scrollTop += 25;
+        if (document.documentElement.scrollTop >= viewport * 4) {
+            clearInterval(scroll);
+            document.documentElement.scrollTop = viewport * 4;
+        }
+    }, 10);
+};
+link.geothermal.onclick = function() {
+    clearInterval(scroll);
+    var viewport = window.innerHeight;
+    console.log(viewport);
+    var scroll = setInterval(function() {
+        document.documentElement.scrollTop += 25;
+        if (document.documentElement.scrollTop >= viewport * 5) {
+            clearInterval(scroll);
+            document.documentElement.scrollTop = viewport * 5;
+        }
+    }, 10);
+};
 //i=0;
 //while (i<3) {
 //	item = document.createElement('div')
