@@ -44,6 +44,7 @@ h2 {
 }
 .our-chapter p {
     margin-right: 15vw;
+    color: white;
     margin-left: 15vw;
 }
 .our-chapter h2 {
@@ -93,6 +94,10 @@ section a {
 }
 .info h2 {
     padding-top: 25vh;
+    color: white;
+}
+.our-chapter h2 {
+    color: white;
 }
 #whereyouat {
     position: absolute;
@@ -122,5 +127,5 @@ section a {
     z-index: 3;
 }
 .footer {
-    top: 300vh;
+    top: 300vh !important;
 }

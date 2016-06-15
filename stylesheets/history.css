@@ -190,5 +190,5 @@ button:focus {
     z-index: 3;
 }
 .footer {
-    top: 100vh;
+    top: 100vh !important;
 }
