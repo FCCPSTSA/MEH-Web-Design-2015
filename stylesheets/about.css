@@ -103,17 +103,7 @@ section a {
     height: 3px;
 }
 #whereyouat.history {
-    transform: translate(170px, 0px);
-    -moz-transition: .8s ease-in-out;
-    -webkit-transition: .8s ease-in-out;
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .5s ease-in-out;
-    z-index: 3;
-}
-#whereyouat.energy {
-    transform: translate(390px, 0px);
+    transform: translate(173px, 0px);
     -moz-transition: .8s ease-in-out;
     -webkit-transition: .8s ease-in-out;
     -webkit-transition: .25s ease-in-out;
@@ -123,7 +113,7 @@ section a {
     z-index: 3;
 }
 #whereyouat.home {
-    transform: translate(538px, 0px);
+    transform: translate(323px, 0px);
     -moz-transition: .8s ease-in-out;
     -webkit-transition: .8s ease-in-out;
     -webkit-transition: .25s ease-in-out;
