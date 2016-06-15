@@ -56,7 +56,7 @@ if (previouspage == 'history') {
     setTimeout(function () {toggleClass('home')}, 200);
 } if (previouspage == '') {
     bar.style.left = '712px';
-
+}
 localStorage.setItem('lastpage', 'history')
 document.getElementById('dimmer').addEventListener('click', disappear);
 document.getElementById('button').addEventListener('click', disappear);
