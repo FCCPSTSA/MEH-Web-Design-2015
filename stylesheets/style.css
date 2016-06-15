@@ -385,7 +385,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     margin-left: auto;
     margin-right: auto;
-=======
+}
 .footer {
     text-align: center;
     background: black;
@@ -416,5 +416,4 @@ h2 {
     -webkit-filter: blur(10px);
     bottom: 14vh;
     z-index: 50000;
->>>>>>> 3a2dc9a414e3dcdc89f10f16448168a0aab47d03
 }
