@@ -145,33 +145,33 @@ body {
     z-index: 3;
 }
 .footer {
-  text-align: center;
-  background: black;
-  background-color: #141414;
-  height: 15vh;
-  width: 100%;
-  top: 100vh;
-  position: absolute;
-  color: rgb(170,170,170);
-  font-family: 'Open Sans';
+    text-align: center;
+    background: black;
+    background-color: #141414;
+    height: 15vh;
+    width: 100%;
+    top: 100vh;
+    position: absolute;
+    color: rgb(170, 170, 170);
+    font-family: 'Open Sans';
 }
 .footer img {
-  height: 10vh;
-  width: 10vh;
-  border: 1px solid #212121;
-  border-radius: 5vh;
+    height: 10vh;
+    width: 10vh;
+    border: 1px solid #212121;
+    border-radius: 5vh;
 }
 .footer h3 {
-  font-weight: lighter;
-  font-size: 1.3em;
+    font-weight: lighter;
+    font-size: 1.3em;
 }
 .top-shadow {
-  position: absolute;
-  background-color: #141414;
-  height: 0.5vh;
-  width: 100vw;
-  filter: blur(10px);
-  -webkit-filter: blur(10px);
-  bottom: 14vh;
-  z-index: 50000;
+    position: absolute;
+    background-color: #141414;
+    height: 0.5vh;
+    width: 100vw;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    bottom: 14vh;
+    z-index: 50000;
 }
