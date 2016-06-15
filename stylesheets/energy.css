@@ -246,7 +246,7 @@ h2 {
     filter: alpha(opacity=87);
     font-family: 'Raleway', sans-serif;
 }
-#interview h2 {
+.interview h2 {
     top: 2vh;
     position: relative;
     padding-bottom: 2vh;
@@ -272,6 +272,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     margin-left: auto;
     margin-right: auto;
+    height: 220vh;
 }
 #whereyouat {
     position: absolute;
@@ -311,4 +312,7 @@ h2 {
     -o-transition: .25s ease-in-out;
     transition: .5s ease-in-out;
     z-index: 3;
+}
+.footer {
+    top: 820vh !important;
 }

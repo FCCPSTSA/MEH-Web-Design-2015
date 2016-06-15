@@ -41,8 +41,6 @@ h2 {
     background-image: url('../images/building.jpg');
     background-size: cover;
     color: white;
-    position: fixed;
-    z-index: -3;
 }
 .our-chapter p {
     margin-right: 15vw;
@@ -89,8 +87,9 @@ section a {
 }
 .info {
     background-color: white;
-    top: 200vh;
+    top: 180vh;
     position: absolute;
+    height: 80vh;
 }
 .info h2 {
     padding-top: 25vh;
@@ -131,4 +130,7 @@ section a {
     -o-transition: .25s ease-in-out;
     transition: .5s ease-in-out;
     z-index: 3;
+}
+.footer {
+    top: 300vh;
 }

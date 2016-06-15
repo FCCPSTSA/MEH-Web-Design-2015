@@ -1,10 +1,12 @@
 function isOdd(num) {
     return num % 2;
 }
+
 function disappear() {
     document.getElementById('dialogz').style.visibility = 'hidden';
     localStorage.setItem('seenit', 'true');
 }
+
 function createNew(name, append) {
     item = document.createElement('div');
     item.className = name;
@@ -23,7 +25,7 @@ for (i = 0; i < 8; i++) {
 var points = document.getElementsByClassName('point');
 console.log(points);
 for (i = 0; i < points.length; i++) {
-    points[i].style.left = ((i+1)* 10 + 3) + 'vw';
+    points[i].style.left = ((i + 1) * 10 + 3) + 'vw';
 }
 var historyboxes = document.getElementsByClassName('historypoint');
 for (k = 0; k < 8; k++) {
@@ -40,21 +42,32 @@ if (localStorage.seenit == 'true') {
 previouspage = localStorage.lastpage;
 bar = document.getElementById('whereyouat');
 console.log(localStorage.lastpage)
+
 function toggleClass(name) {
     bar.className = name;
 }
 if (previouspage == 'energy') {
     bar.style.left = '710px';
-    setTimeout(function() {toggleClass('energy')}, 200)
-} if (previouspage == 'history') {
+    setTimeout(function() {
+        toggleClass('energy')
+    }, 200)
+}
+if (previouspage == 'history') {
     bar.style.left = '930px';
-} if (previouspage == 'about') {
+}
+if (previouspage == 'about') {
     bar.style.left = '1100px';
-    setTimeout(function () {toggleClass('about')}, 200); 
-} if (previouspage == 'home') {
-    bar.style.left = '562px';   
-    setTimeout(function () {toggleClass('home')}, 200);
-} if (previouspage == '') {
+    setTimeout(function() {
+        toggleClass('about')
+    }, 200);
+}
+if (previouspage == 'home') {
+    bar.style.left = '562px';
+    setTimeout(function() {
+        toggleClass('home')
+    }, 200);
+}
+if (previouspage == '') {
     bar.style.left = '930px';
 }
 localStorage.setItem('lastpage', 'history')
