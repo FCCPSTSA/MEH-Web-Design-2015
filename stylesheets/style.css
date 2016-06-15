@@ -115,7 +115,7 @@ body {
     z-index: -5;
 }
 #whereyouat.history {
-    transform: translate(-368px, 0px);
+    transform: translate(-150px, 0px);
     -moz-transition: .8s ease-in-out;
     -webkit-transition: .8s ease-in-out;
     -webkit-transition: .25s ease-in-out;
@@ -135,7 +135,7 @@ body {
     z-index: 3;
 }
 #whereyouat.about {
-    transform: translate(-538px, 0px);
+    transform: translate(-323px, 0px);
     -moz-transition: .8s ease-in-out;
     -webkit-transition: .8s ease-in-out;
     -webkit-transition: .25s ease-in-out;
@@ -143,6 +143,248 @@ body {
     -o-transition: .25s ease-in-out;
     transition: .5s ease-in-out;
     z-index: 3;
+}
+<<<<<<< HEAD
+.hoverbar {
+    position: absolute;
+    top: 60px;
+    width: 30px;
+    background-color: white;
+    height: 3px;
+    z-index: 1738;
+}
+.types a {
+    border-bottom: 1px solid rgba(12, 12, 12, 0.6);
+    color: #FF6F00;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    margin-right: 80vw
+}
+.types a:hover {
+    border-bottom: 1px solid rgba(12, 12, 12, 0.8);
+    -webkit-transition: .3s all;
+    transition: .3s all;
+}
+body {
+    overflow-x: hidden;
+}
+.types h2 {
+    top: 15vh;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+.types p {
+    top: 22vh;
+    margin-right: 50vw;
+    position: relative;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+p {
+    top: 2vh;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.types ul {
+    left: 5vw;
+    top: 25vh;
+    list-style: none;
+    position: relative;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+section {
+    height: 100vh;
+    width: 100vw;
+}
+.types {
+    background-color: white;
+    color: #212121;
+    position: relative;
+    z-index: 1;
+}
+.types:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform-origin: 100%;
+    -ms-transform-origin: 100%;
+    transform-origin: 100%;
+    z-index: -1;
+    -webkit-transform: skewY(-1.5deg);
+    -ms-transform: skewY(-1.5deg);
+    transform: skewY(-1.5deg);
+}
+.wind {
+    background-image: url('../images/windmill.jpg');
+    background-size: cover;
+    position: relative;
+}
+.solar {
+    background-image: url('../images/solar.jpg');
+    background-size: cover;
+    position: relative;
+}
+.hydro {
+    background-image: url('../images/dam.jpg');
+    background-size: 100vw 100vh;
+    position: relative;
+}
+.nuclear {
+    background-image: url('../images/nuclear.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.geothermal {
+    background-image: url('../images/geothermal.jpg');
+    background-size: cover;
+}
+.solar:before {
+    background: inherit;
+    top: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    z-index: 1;
+    -webkit-transform: skewY(1.5deg);
+    -ms-transform: skewY(1.5deg);
+    transform: skewY(1.5deg);
+}
+.hydro:before {
+    background: inherit;
+    top: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    z-index: 1;
+    -webkit-transform: skewY(1.5deg);
+    -ms-transform: skewY(1.5deg);
+    transform: skewY(1.5deg);
+}
+.nuclear:before {
+    background: inherit;
+    top: 400vh;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    -webkit-transform: skewY(-1.5deg);
+    -ms-transform: skewY(-1.5deg);
+    transform: skewY(-1.5deg);
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    z-index: 1;
+}
+.geothermal:before {
+    background: inherit;
+    top: 500vh;
+    content: '';
+    display: block;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    z-index: 1;
+    -webkit-transform: skewY(1.5deg);
+    -ms-transform: skewY(1.5deg);
+    transform: skewY(1.5deg);
+}
+.wind img {
+    position: absolute;
+    height: 8vh;
+    top: 20vh;
+    left: 45vw;
+    z-index: 2;
+    border-radius: 50%;
+    padding: 20px 15px 20px 15px;
+    background-color: #228B7E;
+}
+.wind .content {
+    position: absolute;
+    top: 70vh;
+    height: 60vh !important;
+    z-index: 1;
+    background-color: white;
+}
+.nuclear .content {
+    height: 65vh !important;
+}
+.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0.9 !important;
+    filter: alpha(opacity=100);
+    color: #212121;
+    top: 10vh;
+    left: 32vw;
+    position: relative;
+    width: 32vw;
+    font-family: 'Open Sans', sans-serif;
+    height: 43vh;
+    z-index: 20;
+    box-shadow: 1px 1px 20px rgba(12, 12, 12, 0.1);
+}
+p {
+    opacity: 0.54;
+    filter: alpha(opacity=54);
+    padding: 1vh 1vh;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    text-align: center;
+    color: #000000;
+    opacity: 0.87;
+    filter: alpha(opacity=87);
+    font-family: 'Raleway', sans-serif;
+}
+#interview h2 {
+    top: 2vh;
+    position: relative;
+    padding-bottom: 2vh;
+}
+.solar .content {
+    height: 57vh;
+}
+.hydro .content {
+    height: 48vh;
+}
+.geothermal .content {
+    height: 77vh;
+    top: 7vh !important;
+}
+.wind .content {
+    top: 15vh;
+}
+.question {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.interview {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer {
     text-align: center;

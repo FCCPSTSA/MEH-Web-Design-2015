@@ -5,12 +5,6 @@ console.log(localStorage.lastpage)
 function toggleClass(name) {
     bar.className = name;
 }
-if (previouspage == 'energy') {
-    bar.style.left = '710px';
-    setTimeout(function() {
-        toggleClass('energy')
-    }, 200)
-}
 if (previouspage == 'history') {
     bar.style.left = '930px';
     setTimeout(function() {
