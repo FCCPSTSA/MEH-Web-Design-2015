@@ -1,8 +1,9 @@
 previouspage = localStorage.lastpage;
 bar = document.getElementById('whereyouat');
 console.log(localStorage.lastpage)
+
 function toggleClass(name) {
-	bar.className = name;
+    bar.className = name;
 }
 if (previouspage == 'history') {
 	bar.style.left = '712px';
