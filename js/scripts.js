@@ -61,9 +61,9 @@ link.hydro.onclick = function() {
     console.log(viewport);
     var scroll = setInterval(function() {
         document.documentElement.scrollTop += 25;
-        if (document.documentElement.scrollTop >= viewport * 3) {
+        if (document.documentElement.scrollTop >= viewport * 4) {
             clearInterval(scroll);
-            document.documentElement.scrollTop = viewport * 3;
+            document.documentElement.scrollTop = viewport * 4;
         }
     }, 10);
 };
@@ -73,9 +73,9 @@ link.nuclear.onclick = function() {
     console.log(viewport);
     var scroll = setInterval(function() {
         document.documentElement.scrollTop += 25;
-        if (document.documentElement.scrollTop >= viewport * 4) {
+        if (document.documentElement.scrollTop >= viewport * 5) {
             clearInterval(scroll);
-            document.documentElement.scrollTop = viewport * 4;
+            document.documentElement.scrollTop = viewport * 5;
         }
     }, 10);
 };
@@ -85,9 +85,9 @@ link.geothermal.onclick = function() {
     console.log(viewport);
     var scroll = setInterval(function() {
         document.documentElement.scrollTop += 25;
-        if (document.documentElement.scrollTop >= viewport * 5) {
+        if (document.documentElement.scrollTop >= viewport * 6) {
             clearInterval(scroll);
-            document.documentElement.scrollTop = viewport * 5;
+            document.documentElement.scrollTop = viewport * 6;
         }
     }, 10);
 };
