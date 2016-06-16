@@ -6,7 +6,7 @@ function toggleClass(name) {
     bar.className = name;
 }
 if (previouspage == 'history') {
-    bar.style.left = '930px';
+    bar.style.left = '712px';
     setTimeout(function() {
         toggleClass('history')
     }, 200);
