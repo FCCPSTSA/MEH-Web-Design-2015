@@ -36,10 +36,10 @@ link.wind.onclick = function() {
     var viewport = window.innerHeight;
     console.log(viewport);
     var scroll = setInterval(function() {
-        document.documentElement.scrollTop += 25;
-        if (document.documentElement.scrollTop >= viewport * 2) {
+        document.scrollingElement.scrollTop += 25;
+        if (document.scrollingElement.scrollTop >= viewport * 2) {
             clearInterval(scroll);
-            document.documentElement.scrollTop = viewport * 2;
+            document.scrollingElement.scrollTop = viewport * 2;
         }
     }, 10);
 };
@@ -48,10 +48,10 @@ link.solar.onclick = function() {
     var viewport = window.innerHeight;
     console.log(viewport);
     var scroll = setInterval(function() {
-        document.documentElement.scrollTop += 25;
-        if (document.documentElement.scrollTop >= viewport * 3) {
+        document.scrollingElement.scrollTop += 35;
+        if (document.scrollingElement.scrollTop >= viewport * 3) {
             clearInterval(scroll);
-            document.documentElement.scrollTop = viewport * 3;
+            document.scrollingElement.scrollTop = viewport * 3;
         }
     }, 10);
 };
@@ -60,10 +60,10 @@ link.hydro.onclick = function() {
     var viewport = window.innerHeight;
     console.log(viewport);
     var scroll = setInterval(function() {
-        document.documentElement.scrollTop += 25;
-        if (document.documentElement.scrollTop >= viewport * 4) {
+        document.scrollingElement.scrollTop += 45;
+        if (document.scrollingElement.scrollTop >= viewport * 4) {
             clearInterval(scroll);
-            document.documentElement.scrollTop = viewport * 4;
+            document.scrollingElement.scrollTop = viewport * 4;
         }
     }, 10);
 };
@@ -72,10 +72,10 @@ link.nuclear.onclick = function() {
     var viewport = window.innerHeight;
     console.log(viewport);
     var scroll = setInterval(function() {
-        document.documentElement.scrollTop += 25;
-        if (document.documentElement.scrollTop >= viewport * 5) {
+        document.scrollingElement.scrollTop += 55;
+        if (document.scrollingElement.scrollTop >= viewport * 5) {
             clearInterval(scroll);
-            document.documentElement.scrollTop = viewport * 5;
+            document.scrollingElement.scrollTop = viewport * 5;
         }
     }, 10);
 };
@@ -84,28 +84,30 @@ link.geothermal.onclick = function() {
     var viewport = window.innerHeight;
     console.log(viewport);
     var scroll = setInterval(function() {
-        document.documentElement.scrollTop += 25;
-        if (document.documentElement.scrollTop >= viewport * 6) {
+        document.scrollingElement.scrollTop += 55;
+        if (document.scrollingElement.scrollTop >= viewport * 6) {
             clearInterval(scroll);
-            document.documentElement.scrollTop = viewport * 6;
+            document.scrollingElement.scrollTop = viewport * 6;
         }
     }, 10);
 };
-//i=0;
-//while (i<3) {
-//	item = document.createElement('div')
-//	item.className = 'hoverbar';
-//	document.body.appendChild(item);
-//	i++;
-//	console.log('yo');
-//}
-//hoverbars = document.getElementsByClassName('hoverbar');
-//console.log(hoverbars);
-//positions = ['710px', '930px', '1100px'];
-//for (i=0; i<hoverbars.length; i++) {
-//hoverbars[i].style.left = positions[i];
-//}
-//energy = document.getElementById('energy');
-//history = document.getElementById('history');
-//about = document.getElementById('about');
-//baritems = [energy, history, about]
+/*
+i = 0;
+while (i < 3) {
+    item = document.createElement('div');
+    item.className = 'hoverbar';
+    document.body.appendChild(item);
+    i++;
+    console.log('yo');
+}
+hoverbars = document.getElementsByClassName('hoverbar');
+console.log(hoverbars);
+positions = ['710px', '930px', '1100px'];
+for (i = 0; i < hoverbars.length; i++) {
+    hoverbars[i].style.left = positions[i];
+}
+energy = document.getElementById('energy');
+history = document.getElementById('history');
+about = document.getElementById('about');
+baritems = [energy, history, about];
+*/

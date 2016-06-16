@@ -21,4 +21,4 @@ How to do what you please when that's available:
 
 ## Libraries used in Site
 
-Nothing! This site is pure-code HTML5.
+We used the scrollingElement polyfill written by [Mathias Bynens](https://github.com/mathiasbynens) and [Diego Perini](https://github.com/dperini), as it doesn't have much support in a lot of browsers.
