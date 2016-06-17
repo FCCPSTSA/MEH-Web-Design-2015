@@ -7,6 +7,10 @@ var link = {
     nuclear: document.getElementById('nuclearLink'),
     geothermal: document.getElementById('geothermalLink'),
 };
+var toplinks = {
+    history: document.getElementById('history'),
+    about: document.getElementById('about'),
+};
 console.log(localStorage.lastpage);
 
 function toggleClass(name) {
@@ -91,9 +95,8 @@ link.geothermal.onclick = function() {
         }
     }, 10);
 };
-/*
 i = 0;
-while (i < 3) {
+while (i < 2) {
     item = document.createElement('div');
     item.className = 'hoverbar';
     document.body.appendChild(item);
@@ -102,12 +105,20 @@ while (i < 3) {
 }
 hoverbars = document.getElementsByClassName('hoverbar');
 console.log(hoverbars);
-positions = ['710px', '930px', '1100px'];
+positions = ['712px', '885px'];
 for (i = 0; i < hoverbars.length; i++) {
     hoverbars[i].style.left = positions[i];
+    hoverbars[i].style.opacity = '0';
 }
-energy = document.getElementById('energy');
-history = document.getElementById('history');
-about = document.getElementById('about');
-baritems = [energy, history, about];
-*/
+toplinks.history.onmouseover = function() {
+    hoverbars[0].style.opacity = '0.75';
+}
+toplinks.history.onmouseout = function() {
+    hoverbars[0].style.opacity = '0';
+}
+toplinks.about.onmouseover = function() {
+    hoverbars[1].style.opacity = '0.75';
+}
+toplinks.about.onmouseout = function() {
+    hoverbars[1].style.opacity = '0';
+}

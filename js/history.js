@@ -1,3 +1,7 @@
+var toplinks = {
+    home: document.getElementById('home'),
+    about: document.getElementById('about'),
+};
 function isOdd(num) {
     return num % 2;
 }
@@ -60,3 +64,30 @@ if (previouspage == 'history') {
 localStorage.setItem('lastpage', 'history')
 document.getElementById('dimmer').addEventListener('click', disappear);
 document.getElementById('button').addEventListener('click', disappear);
+i = 0;
+while (i < 2) {
+    item = document.createElement('div');
+    item.className = 'hoverbar';
+    document.body.appendChild(item);
+    i++;
+    console.log('yo');
+}
+hoverbars = document.getElementsByClassName('hoverbar');
+console.log(hoverbars);
+positions = ['562px', '885px'];
+for (i = 0; i < hoverbars.length; i++) {
+    hoverbars[i].style.left = positions[i];
+    hoverbars[i].style.opacity = '0';
+}
+toplinks.home.onmouseover = function() {
+    hoverbars[0].style.opacity = '0.75';
+}
+toplinks.home.onmouseout = function() {
+    hoverbars[0].style.opacity = '0';
+}
+toplinks.about.onmouseover = function() {
+    hoverbars[1].style.opacity = '0.75';
+}
+toplinks.about.onmouseout = function() {
+    hoverbars[1].style.opacity = '0';
+}
