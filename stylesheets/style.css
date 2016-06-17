@@ -392,7 +392,7 @@ h2 {
     background-color: #141414;
     height: 15vh;
     width: 100%;
-    top: 850vh;
+    top: 920vh;
     position: absolute;
     color: rgb(170, 170, 170);
     font-family: 'Open Sans';
@@ -422,5 +422,5 @@ a {
     text-decoration: underline;
 }
 a:hover {
-    pointer: hover;
+    cursor: pointer;
 }
