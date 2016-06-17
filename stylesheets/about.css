@@ -129,3 +129,14 @@ section a {
 .footer {
     top: 300vh !important;
 }
+.hoverbar {
+    position: absolute;
+    top: 60px;
+    width: 30px;
+    background-color: white;
+    height: 3px;
+    z-index: 1738;
+    transition: .25s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -webkit-transition: .1s ease-in-out;
+}

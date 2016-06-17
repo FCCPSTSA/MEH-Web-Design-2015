@@ -152,6 +152,9 @@ body {
     background-color: white;
     height: 3px;
     z-index: 1738;
+    transition: .25s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -webkit-transition: .1s ease-in-out;
 }
 .types a {
     border-bottom: 1px solid rgba(12, 12, 12, 0.6);
