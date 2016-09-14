@@ -11,8 +11,7 @@ The website for the Web Design event in TSA. Site designed and created by the ME
 
 ## How to use this code
 
-Code this website contains may not be reproduced at this point in time. However, when we're done you can do what you please.<br>
-How to do what you please when that's available:
+Hey, the nationals competition is over, so all you people that have been clamoring to use our code can.
 
 1. Fork it
 2. Change the code
@@ -21,4 +20,4 @@ How to do what you please when that's available:
 
 ## Libraries used in Site
 
-We used the scrollingElement polyfill written by [Mathias Bynens](https://github.com/mathiasbynens) and [Diego Perini](https://github.com/dperini), as it doesn't have much support in a lot of browsers.
+None! This repository is pure-code, written from scratch by our team.
