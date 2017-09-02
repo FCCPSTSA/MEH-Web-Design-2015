@@ -1,5 +1,5 @@
 var previouspage = localStorage.lastpage;
-var bar = document.getElementById('whereyouat');
+var bar = document.getElementById('marker');
 var link = {
     wind: document.getElementById('windLink'),
     solar: document.getElementById('solarLink'),

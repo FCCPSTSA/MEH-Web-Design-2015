@@ -44,7 +44,7 @@ if (localStorage.seenit == 'true') {
     disappear();
 }
 previouspage = localStorage.lastpage;
-bar = document.getElementById('whereyouat');
+bar = document.getElementById('marker');
 console.log(localStorage.lastpage)
 
 function toggleClass(name) {

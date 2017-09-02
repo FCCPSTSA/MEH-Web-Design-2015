@@ -1,5 +1,5 @@
 previouspage = localStorage.lastpage;
-bar = document.getElementById('whereyouat');
+bar = document.getElementById('marker');
 console.log(localStorage.lastpage)
 var toplinks = {
     home: document.getElementById('home'),

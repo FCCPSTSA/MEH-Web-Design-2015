@@ -31,6 +31,7 @@ section {
 p {
     font-family: 'Open Sans', sans-serif;
     padding-top: 5vh;
+    font-weight: 900;
 }
 h2 {
     font-family: 'Raleway', sans-serif;
@@ -99,14 +100,14 @@ section a {
 .our-chapter h2 {
     color: white;
 }
-#whereyouat {
+#marker {
     position: absolute;
     top: 60px;
     width: 30px;
     background-color: white;
     height: 3px;
 }
-#whereyouat.history {
+#marker.history {
     transform: translate(173px, 0px);
     -moz-transition: .8s ease-in-out;
     -webkit-transition: .8s ease-in-out;
@@ -116,7 +117,7 @@ section a {
     transition: .5s ease-in-out;
     z-index: 3;
 }
-#whereyouat.home {
+#marker.home {
     transform: translate(323px, 0px);
     -moz-transition: .8s ease-in-out;
     -webkit-transition: .8s ease-in-out;
